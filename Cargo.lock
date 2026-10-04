@@ -2762,7 +2762,7 @@ dependencies = [
 name = "pdf-core"
 version = "1.0.3"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "image",
  "lopdf",
  "pdfium-render",
@@ -2782,7 +2782,7 @@ dependencies = [
 name = "pdf-editor"
 version = "1.0.3"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "pdf-core",
  "rfd",
  "serde",

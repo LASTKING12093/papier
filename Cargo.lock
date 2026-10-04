@@ -2767,7 +2767,7 @@ dependencies = [
  "lopdf",
  "pdfium-render",
  "pretty_assertions",
- "rand 0.9.5",
+ "rand 0.10.3",
  "serde",
  "serde_json",
  "sha2",

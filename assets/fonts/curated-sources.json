@@ -1,0 +1,76 @@
+[
+  {
+    "file": "Manrope.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "sha256": "90867a8d1957cbb7f17cc1d76293a2e189524b023ba1826196b013fb51da7e3a",
+    "license": "manrope-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400
+    }
+  },
+  {
+    "file": "NotoSerif.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserif/NotoSerif%5Bwdth%2Cwght%5D.ttf",
+    "sha256": "72c0367a73c31f71329cb2b24a5ac87d092620e76d5b83a282154f446cad1510",
+    "license": "notoserif-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400,
+      "wdth": 100.0
+    }
+  },
+  {
+    "file": "NotoSerif-Italic.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserif/NotoSerif-Italic%5Bwdth%2Cwght%5D.ttf",
+    "sha256": "10bdef19028ece6e2b63ee80666d54c849ae7b91524cc394d4ed28fa674fb4d0",
+    "license": "notoserif-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "e87acbc6c0efd0d9a20d6a8cbbda2b266c14be3a3a6f5af8ec9d7b2460570ad1",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400,
+      "wdth": 100.0
+    }
+  },
+  {
+    "file": "RobotoMono.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/RobotoMono%5Bwght%5D.ttf",
+    "sha256": "54c225b2732c077f92908141838925b123f04615c0f4d6dc831c82dd64c8cc94",
+    "license": "robotomono-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400
+    }
+  },
+  {
+    "file": "CormorantGaramond.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+    "sha256": "ec812c65ff1e98c5be5821f7ec8c93c414cbc45108f48953fe8e7f13cc4a4753",
+    "license": "cormorantgaramond-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400
+    }
+  },
+  {
+    "file": "Caveat.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf",
+    "sha256": "ddb403be7ad0688dd4e750e84a936e0120349e48feaa0881d01e91b9583eb1d8",
+    "license": "caveat-OFL.txt",
+    "modified": true,
+    "upstream_sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "modification": "Static regular instance generated with fontTools 4.66.1",
+    "axes": {
+      "wght": 400
+    }
+  }
+]

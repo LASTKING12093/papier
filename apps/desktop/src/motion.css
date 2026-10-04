@@ -1,0 +1,188 @@
+/* Papier motion: light follows intent; controls carry momentum; document pixels stay direct. */
+:root {
+  --ease-tactile: cubic-bezier(.2,.8,.2,1);
+  --ease-emerge: cubic-bezier(.16,1,.3,1);
+}
+.home-light {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  --light-x: 28%;
+  --light-y: 35%;
+  isolation: isolate;
+  animation: light-wake 1100ms ease-out both;
+}
+.light-follow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: min(1000px, 90vw);
+  aspect-ratio: 1.25;
+  transform: translate3d(var(--light-px, 28vw), var(--light-py, 35vh), 0) translate(-50%, -50%);
+  background: radial-gradient(ellipse, #a9d4f020 0%, #7ba6ca13 32%, transparent 69%);
+  will-change: transform;
+}
+.light-follow i {
+  position: absolute;
+  inset: 16% -20%;
+  background: radial-gradient(ellipse, #c1daea30, #829eae0d 40%, transparent 67%);
+  filter: blur(25px);
+  transform: rotate(-32deg) scaleY(.36);
+  animation: light-breathe 9s ease-in-out infinite alternate;
+}
+.light-follow span {
+  position: absolute;
+  inset: -20% 25%;
+  border-left: 1px solid #bddbec19;
+  border-radius: 50%;
+  transform: rotate(42deg);
+  box-shadow: -18px 0 42px -30px #d5eafd66;
+}
+.light-horizon {
+  position: absolute;
+  inset: -45% -15% 20%;
+  border-bottom: 1px solid #b7cfde18;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at 40% 90%, #779bb617, transparent 58%);
+  transform-origin: 40% 80%;
+  animation: light-horizon 24s ease-in-out infinite alternate;
+}
+.light-reflection {
+  position: absolute;
+  inset: 55% -20% -75%;
+  background: radial-gradient(ellipse at 65% 50%, #88a9c51a, transparent 55%);
+  animation: reflection-drift 17s ease-in-out infinite alternate;
+}
+.quiet-home-content { animation: none; }
+.quiet-welcome > *, .quiet-recents > header, .quiet-recents > label {
+  animation: home-unfold 650ms var(--ease-emerge) both;
+}
+.quiet-welcome > :nth-child(2) { animation-delay: 45ms; }
+.quiet-welcome > :nth-child(3) { animation-delay: 90ms; }
+.quiet-welcome > :nth-child(4) { animation-delay: 125ms; }
+.quiet-welcome > :nth-child(5) { animation-delay: 160ms; }
+.quiet-welcome > :nth-child(6) { animation-delay: 195ms; }
+.quiet-recents > header { animation-delay: 90ms; }
+.quiet-recents > label { animation-delay: 130ms; }
+.quiet-file {
+  animation: row-unfold 480ms var(--ease-emerge) both;
+  transition: background 220ms, box-shadow 280ms var(--ease-out);
+}
+.quiet-file:nth-child(2) { animation-delay: 35ms; }
+.quiet-file:nth-child(3) { animation-delay: 70ms; }
+.quiet-file:nth-child(4) { animation-delay: 105ms; }
+.quiet-file:nth-child(5) { animation-delay: 140ms; }
+.quiet-file:nth-child(6) { animation-delay: 175ms; }
+.quiet-file:hover { box-shadow: inset 2px 0 #b8cedd66; }
+.quiet-file-open img {
+  transition: transform 420ms var(--ease-emerge), filter 300ms;
+  transform-origin: 50% 85%;
+}
+.quiet-file:hover .quiet-file-open img { transform: translateY(-3px) rotate(-4deg) scale(1.08); }
+.quiet-file-open > span { transition: translate 260ms var(--ease-emerge); }
+.quiet-file:hover .quiet-file-open > span { translate: 3px 0; }
+.quiet-file-more { transition: opacity 180ms, translate 260ms var(--ease-emerge); translate: -5px 0; }
+.quiet-file:hover .quiet-file-more, .quiet-file:focus-within .quiet-file-more { translate: 0; }
+.quiet-brand .prism-mark {
+  transform: perspective(300px) rotateX(var(--brand-tilt-x, 0deg)) rotateY(var(--brand-tilt-y, 0deg));
+  filter: drop-shadow(0 3px 9px #afd5e42b);
+  animation: mark-breathe 7s ease-in-out infinite alternate;
+}
+.quiet-launch button {
+  position: relative;
+  overflow: hidden;
+  transition: translate 280ms var(--ease-emerge), background 200ms, box-shadow 280ms;
+}
+.quiet-launch button::after {
+  content: "";
+  position: absolute;
+  inset: -100% -30%;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 38%, #fff3 50%, transparent 62%);
+  transform: translateX(-95%);
+}
+.quiet-launch button:hover::after { animation: action-sweep 750ms var(--ease-out); }
+.quiet-launch button:hover { translate: 0 -2px; box-shadow: 0 5px 18px #0003; }
+.quiet-launch button:active { translate: 0 1px; }
+.quiet-studios button { transition: background 180ms, color 180ms, padding-left 260ms var(--ease-emerge); }
+.quiet-studios button:hover { padding-left: 10px; }
+.quiet-studios button > svg:last-child { transition: translate 280ms var(--ease-emerge); }
+.quiet-studios button:hover > svg:last-child { translate: 2px -2px; }
+.quiet-templates[open] .home-template-line { animation: row-unfold 300ms var(--ease-emerge); }
+
+/* Shared controls: feedback without moving or resizing their hit targets. */
+button > svg { transform-origin: center; transform-box: fill-box; }
+.icon-button, .select-trigger, .secondary, .studio-tabs button, .preferences-nav button {
+  transition: background-color 180ms, color 180ms, box-shadow 220ms, translate 180ms var(--ease-tactile);
+}
+.icon-button:hover, .select-trigger:hover { box-shadow: inset 0 0 0 1px var(--line-strong); }
+.select-trigger > svg:last-child, .section-toggle > svg {
+  transition: transform 300ms var(--ease-emerge);
+}
+.select-trigger[aria-expanded="true"] > svg:last-child { transform: rotate(180deg); }
+input:not([type="range"]), textarea {
+  transition: border-color 180ms, box-shadow 260ms var(--ease-out), background-color 180ms;
+}
+input:focus, textarea:focus { box-shadow: 0 0 0 3px var(--accent-bg); }
+input[type="range"]::-webkit-slider-thumb { transition: scale 180ms var(--ease-tactile), box-shadow 200ms; }
+input[type="range"]:active::-webkit-slider-thumb { scale: 1.2; box-shadow: 0 0 0 5px var(--accent-bg); }
+.preference-row input[role="switch"]::after { transition: translate 300ms var(--ease-emerge), width 140ms; }
+
+/* Distinct paths: anchored menus unfold, dialogs rise, side panels enter from their edge. */
+dialog { animation: dialog-material var(--motion-dialog) var(--ease-emerge) both; }
+dialog > header { animation: row-unfold 420ms 55ms var(--ease-emerge) both; }
+dialog > footer { animation: row-unfold 380ms 90ms var(--ease-emerge) both; }
+.command-palette { animation: command-arrive 380ms var(--ease-emerge) both; }
+.select-menu, .context-menu, .font-menu {
+  transform-origin: 50% 0;
+  animation: menu-unfold var(--motion-menu) var(--ease-emerge) both;
+}
+.select-menu button, .context-menu button, .palette-list button, .font-menu button {
+  transition: background 150ms, color 150ms, box-shadow 200ms;
+}
+.select-menu button.chosen, .palette-list button.chosen {
+  box-shadow: inset 2px 0 var(--accent);
+}
+.palette-list button .enter-key { animation: key-enter 180ms var(--ease-emerge) both; }
+.document-mode .navigation-panel { animation: rail-left var(--motion-panel) var(--ease-emerge) both; }
+.document-mode .inspector { animation: rail-right var(--motion-panel) var(--ease-emerge) both; }
+.inspector .section-body { animation: row-unfold 320ms 50ms var(--ease-emerge) both; }
+.preferences-content { animation: content-arrive 360ms var(--ease-emerge) both; }
+.signature-studio .signature-live .signature-outline { animation: signature-develop 500ms var(--ease-emerge) both; }
+.signature-candidates button { transition: box-shadow 220ms, border-color 180ms; }
+.signature-candidates button .signature-outline { transition: transform 360ms var(--ease-emerge); }
+.signature-studio .signature-candidates button:hover .signature-outline { transform: translateY(-3px) scale(1.035); }
+.thumbnail .thumb-paper { transition: transform 280ms var(--ease-emerge), filter 250ms; }
+.thumbnail:hover .thumb-paper { transform: translateY(-3px); filter: drop-shadow(0 5px 5px #0003); }
+.toast { animation: toast-deliver 420ms var(--ease-emerge) both; }
+.object-selection { animation: selection-lock 340ms var(--ease-emerge); }
+.selection-hud { animation: row-unfold 240ms var(--ease-emerge); }
+.spin { animation: spin 850ms linear infinite; }
+
+@keyframes light-wake { from { opacity: 0; } to { opacity: 1; } }
+@keyframes light-breathe { to { transform: rotate(-18deg) scaleY(.55) translateX(6%); opacity: .6; } }
+@keyframes light-horizon { from { transform: rotate(-12deg) translateY(-2%); } to { transform: rotate(5deg) translateY(7%); } }
+@keyframes reflection-drift { from { transform: translateX(-8%); } to { transform: translateX(10%) translateY(-8%); } }
+@keyframes mark-breathe { from { filter: drop-shadow(0 3px 9px #afd5e41a); } to { filter: drop-shadow(0 3px 15px #afd5e455); } }
+@keyframes home-unfold { from { opacity: 0; translate: 0 18px; } to { opacity: 1; translate: 0; } }
+@keyframes row-unfold { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0; } }
+@keyframes action-sweep { to { transform: translateX(95%); } }
+@keyframes menu-unfold { from { opacity: 0; clip-path: inset(0 0 18% 0 round 6px); translate: 0 -7px; } to { opacity: 1; clip-path: inset(0 round 6px); translate: 0; } }
+@keyframes dialog-material { from { opacity: 0; transform: translateY(24px) scale(.975); } to { opacity: 1; transform: none; } }
+@keyframes command-arrive { from { opacity: 0; translate: 0 -16px; } to { opacity: 1; translate: 0; } }
+@keyframes rail-left { from { opacity: .4; translate: -24px 0; } to { opacity: 1; translate: 0; } }
+@keyframes rail-right { from { opacity: .4; translate: 24px 0; } to { opacity: 1; translate: 0; } }
+@keyframes content-arrive { from { opacity: .3; translate: 10px 0; } to { opacity: 1; translate: 0; } }
+@keyframes key-enter { from { opacity: 0; translate: -6px 0; } to { opacity: 1; translate: 0; } }
+@keyframes signature-develop { from { opacity: .2; clip-path: inset(0 100% 0 0); } to { opacity: 1; clip-path: inset(0); } }
+@keyframes toast-deliver { from { opacity: 0; translate: 0 16px; } to { opacity: 1; translate: 0; } }
+@keyframes selection-lock { from { box-shadow: 0 0 0 4px var(--accent-bg); border-color: var(--ink); } to { box-shadow: 0 0 0 0 transparent; } }
+
+/* Only an explicit preference inside Papier reduces motion, never the OS setting. */
+html[data-motion="reduced"] .home-light,
+html[data-ambient="false"] .home-light { display: none; }
+html[data-motion="reduced"] .quiet-brand .prism-mark { transform: none; }
+html[data-ambient="false"] .quiet-brand .prism-mark { animation: none; filter: none; }
+html[data-theme="light"] .home-light { opacity: .55; mix-blend-mode: multiply; }
+html[data-theme="light"] .quiet-brand .prism-mark { filter: brightness(.7); animation: none; }

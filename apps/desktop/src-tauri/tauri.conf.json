@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Papier",
+  "version": "1.0.3",
+  "identifier": "org.pdfeditor.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Papier",
+        "width": 1440,
+        "height": 960,
+        "minWidth": 820,
+        "minHeight": 600,
+        "theme": "Dark",
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "shortDescription": "A private, local PDF workspace",
+    "category": "Productivity",
+    "resources": {
+      "../../../vendor/pdfium/bin/pdfium.dll": "pdfium.dll",
+      "../../../vendor/pdfium/bin/qpdf/": "qpdf/",
+      "../../../vendor/pdfium/licenses/": "licenses/pdfium/",
+      "../../../artifacts/licenses/": "licenses/dependencies/",
+      "icons/icon.ico": "papier.ico"
+    },
+    "windows": {
+      "nsis": {
+        "displayLanguageSelector": false,
+        "languages": [
+          "English",
+          "PortugueseBR"
+        ],
+        "template": "installer/papier.nsi",
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico",
+        "sidebarImage": "installer/sidebar.bmp",
+        "headerImage": "installer/header.bmp"
+      }
+    },
+    "icon": [
+      "icons/icon.ico",
+      "icons/icon.png"
+    ]
+  }
+}

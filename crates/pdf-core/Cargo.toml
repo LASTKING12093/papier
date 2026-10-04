@@ -1,0 +1,25 @@
+[package]
+name = "pdf-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pdfium-render = "0.9.4"
+lopdf = "0.42"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+uuid = { version = "1", features = ["v4", "serde"] }
+tempfile = "3"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "tiff", "webp"] }
+base64 = "0.22"
+thiserror = "2"
+zeroize = "1"
+rand = "0.9"
+
+[dev-dependencies]
+pretty_assertions = "1"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Security_Cryptography", "Win32_Security_Cryptography_UI", "Win32_Foundation"] }

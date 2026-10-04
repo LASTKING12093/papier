@@ -1,0 +1,1 @@
+Papier curated fonts: static regular instances generated from upstream OFL variable fonts using fontTools 4.66.1. Weight 400; width 100 where applicable. No glyph designs changed. Original copyright notices and OFL licenses are retained. Source URLs and original/distributed SHA-256 hashes are recorded in assets/fonts/curated-sources.json.

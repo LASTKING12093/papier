@@ -1,0 +1,60 @@
+name: Prepare release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag, such as v1.0.3
+        required: true
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.tag }}
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d # stable
+        with:
+          components: rustfmt, clippy
+      - name: Validate tag and reject existing public releases
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          $version = (Get-Content package.json | ConvertFrom-Json).version
+          if ($env:RELEASE_TAG -ne "v$version") { throw 'Tag and package version differ' }
+          $release = gh release view $env:RELEASE_TAG --json isDraft 2>$null
+          if ($LASTEXITCODE -eq 0) { throw 'Release already exists; inspect it before rebuilding' }
+      - run: npm ci
+      - run: node scripts/fetch-native.mjs
+      - run: node scripts/fetch-qpdf.mjs
+      - run: node scripts/prepare-ocr.mjs
+      - run: npm run check
+      - run: npm test
+      - run: npm audit --audit-level=high
+      - run: cargo fmt --all -- --check
+      - run: cargo clippy --workspace --all-targets --locked -- -D warnings
+      - run: cargo test -p pdf-core --locked -- --test-threads=1
+      - run: npm run package
+      - run: node scripts/smoke-bundle.mjs
+      - run: node scripts/package-mpl-sources.mjs
+      - name: Checksums and draft release
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          $v = (Get-Content package.json | ConvertFrom-Json).version
+          $assets = @("artifacts/Papier-$v-Setup-x64.exe", "artifacts/Papier-$v-MPL-Sources.zip")
+          $assets | ForEach-Object { "$( (Get-FileHash $_ -Algorithm SHA256).Hash.ToLower() )  $(Split-Path $_ -Leaf)" } | Set-Content artifacts/SHA256SUMS.txt -Encoding utf8NoBOM
+          gh release create $env:RELEASE_TAG @assets artifacts/SHA256SUMS.txt --verify-tag --draft --title "Papier $v" --notes-file .github/RELEASE_NOTES.md
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -1,0 +1,3518 @@
+[
+  {
+    "name": "@tauri-apps/api",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://www.npmjs.com/package/@tauri-apps/api/v/2.12.1",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "_tauri-apps_api-2.12.1-LICENSE-APACHE-2.0",
+      "_tauri-apps_api-2.12.1-LICENSE-MIT",
+      "_tauri-apps_api-2.12.1-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "adler2",
+    "version": "2.0.1",
+    "license": "0BSD OR MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/adler2/2.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "adler2-2.0.1-LICENSE-0BSD",
+      "adler2-2.0.1-LICENSE-APACHE",
+      "adler2-2.0.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "aes",
+    "version": "0.8.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/aes/0.8.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "aes-0.8.4-LICENSE-APACHE",
+      "aes-0.8.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "aho-corasick",
+    "version": "1.1.5",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/aho-corasick/1.1.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "aho-corasick-1.1.5-COPYING",
+      "aho-corasick-1.1.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "alloc-no-stdlib",
+    "version": "3.0.0",
+    "license": "BSD-3-Clause",
+    "source": "https://crates.io/crates/alloc-no-stdlib/3.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "alloc-no-stdlib-3.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "alloc-stdlib",
+    "version": "0.3.0",
+    "license": "BSD-3-Clause",
+    "source": "https://crates.io/crates/alloc-stdlib/0.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "alloc-stdlib-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "anyhow",
+    "version": "1.0.104",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/anyhow/1.0.104",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "anyhow-1.0.104-LICENSE-APACHE",
+      "anyhow-1.0.104-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "autocfg",
+    "version": "1.5.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/autocfg/1.5.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "autocfg-1.5.1-LICENSE-APACHE",
+      "autocfg-1.5.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "base64",
+    "version": "0.22.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/base64/0.22.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "base64-0.22.1-LICENSE-APACHE",
+      "base64-0.22.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "base64",
+    "version": "0.23.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/base64/0.23.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "base64-0.23.1-LICENSE-APACHE",
+      "base64-0.23.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bit-set",
+    "version": "0.8.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/bit-set/0.8.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bit-set-0.8.0-LICENSE-APACHE",
+      "bit-set-0.8.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bit-vec",
+    "version": "0.8.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/bit-vec/0.8.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bit-vec-0.8.0-LICENSE-APACHE",
+      "bit-vec-0.8.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bitflags",
+    "version": "1.3.2",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/bitflags/1.3.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bitflags-1.3.2-LICENSE-APACHE",
+      "bitflags-1.3.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bitflags",
+    "version": "2.13.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/bitflags/2.13.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bitflags-2.13.2-LICENSE-APACHE",
+      "bitflags-2.13.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "block-buffer",
+    "version": "0.10.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/block-buffer/0.10.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "block-buffer-0.10.4-LICENSE-APACHE",
+      "block-buffer-0.10.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "block-padding",
+    "version": "0.3.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/block-padding/0.3.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "block-padding-0.3.3-LICENSE-APACHE",
+      "block-padding-0.3.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bmp-js",
+    "version": "0.1.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/bmp-js/v/0.1.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "bmp-js-0.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "brotli",
+    "version": "9.0.0",
+    "license": "BSD-3-Clause AND MIT",
+    "source": "https://crates.io/crates/brotli/9.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "brotli-9.0.0-LICENSE.BSD-3-Clause",
+      "brotli-9.0.0-LICENSE.MIT"
+    ]
+  },
+  {
+    "name": "brotli-decompressor",
+    "version": "6.0.1",
+    "license": "BSD-3-Clause/MIT",
+    "source": "https://crates.io/crates/brotli-decompressor/6.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "brotli-decompressor-6.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "bs58",
+    "version": "0.5.1",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/bs58/0.5.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bs58-0.5.1-LICENSE-APACHE",
+      "bs58-0.5.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bytemuck",
+    "version": "1.25.2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/bytemuck/1.25.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bytemuck-1.25.2-LICENSE-APACHE",
+      "bytemuck-1.25.2-LICENSE-MIT",
+      "bytemuck-1.25.2-LICENSE-ZLIB"
+    ]
+  },
+  {
+    "name": "byteorder",
+    "version": "1.5.0",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/byteorder/1.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "byteorder-1.5.0-COPYING",
+      "byteorder-1.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "byteorder-lite",
+    "version": "0.1.0",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/byteorder-lite/0.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "byteorder-lite-0.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bytes",
+    "version": "1.12.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/bytes/1.12.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "bytes-1.12.1-LICENSE"
+    ]
+  },
+  {
+    "name": "camino",
+    "version": "1.2.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/camino/1.2.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "camino-1.2.6-LICENSE-APACHE",
+      "camino-1.2.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cargo_metadata",
+    "version": "0.19.2",
+    "license": "MIT",
+    "source": "https://crates.io/crates/cargo_metadata/0.19.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cargo_metadata-0.19.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cargo_toml",
+    "version": "1.0.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/cargo_toml/1.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cargo_toml-1.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "cargo-platform",
+    "version": "0.1.9",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cargo-platform/0.1.9",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cargo-platform-0.1.9-LICENSE-APACHE",
+      "cargo-platform-0.1.9-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cbc",
+    "version": "0.1.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cbc/0.1.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cbc-0.1.2-LICENSE-APACHE",
+      "cbc-0.1.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cc",
+    "version": "1.5.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cc/1.5.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cc-1.5.1-LICENSE-APACHE",
+      "cc-1.5.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cfb",
+    "version": "0.14.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/cfb/0.14.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cfb-0.14.0-LICENSE"
+    ]
+  },
+  {
+    "name": "cfg-if",
+    "version": "1.0.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cfg-if/1.0.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cfg-if-1.0.5-LICENSE-APACHE",
+      "cfg-if-1.0.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "chacha20",
+    "version": "0.10.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/chacha20/0.10.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "chacha20-0.10.2-LICENSE-APACHE",
+      "chacha20-0.10.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "chrono",
+    "version": "0.4.45",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/chrono/0.4.45",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "chrono-0.4.45-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "cipher",
+    "version": "0.4.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cipher/0.4.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cipher-0.4.4-LICENSE-APACHE",
+      "cipher-0.4.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cookie",
+    "version": "0.18.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cookie/0.18.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cookie-0.18.2-LICENSE-APACHE",
+      "cookie-0.18.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "core_detect",
+    "version": "1.0.0",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/core_detect/1.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "core_detect-1.0.0-LICENSE-APACHE",
+      "core_detect-1.0.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cpufeatures",
+    "version": "0.2.17",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cpufeatures/0.2.17",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cpufeatures-0.2.17-LICENSE-APACHE",
+      "cpufeatures-0.2.17-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cpufeatures",
+    "version": "0.3.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cpufeatures/0.3.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cpufeatures-0.3.1-LICENSE-APACHE",
+      "cpufeatures-0.3.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "crc32fast",
+    "version": "1.5.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crc32fast/1.5.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crc32fast-1.5.2-LICENSE-APACHE",
+      "crc32fast-1.5.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "crossbeam-channel",
+    "version": "0.5.17",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crossbeam-channel/0.5.17",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crossbeam-channel-0.5.17-LICENSE-APACHE",
+      "crossbeam-channel-0.5.17-LICENSE-MIT",
+      "crossbeam-channel-0.5.17-LICENSE-THIRD-PARTY"
+    ]
+  },
+  {
+    "name": "crossbeam-deque",
+    "version": "0.8.8",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crossbeam-deque/0.8.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crossbeam-deque-0.8.8-LICENSE-APACHE",
+      "crossbeam-deque-0.8.8-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "crossbeam-epoch",
+    "version": "0.9.21",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crossbeam-epoch/0.9.21",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crossbeam-epoch-0.9.21-LICENSE-APACHE",
+      "crossbeam-epoch-0.9.21-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "crossbeam-utils",
+    "version": "0.8.23",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crossbeam-utils/0.8.23",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crossbeam-utils-0.8.23-LICENSE-APACHE",
+      "crossbeam-utils-0.8.23-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "crypto-common",
+    "version": "0.1.7",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crypto-common/0.1.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "crypto-common-0.1.7-LICENSE-APACHE",
+      "crypto-common-0.1.7-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cssparser",
+    "version": "0.37.0",
+    "license": "MPL-2.0",
+    "source": "https://crates.io/crates/cssparser/0.37.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cssparser-0.37.0-LICENSE"
+    ]
+  },
+  {
+    "name": "cssparser-macros",
+    "version": "0.7.1",
+    "license": "MPL-2.0",
+    "source": "https://crates.io/crates/cssparser-macros/0.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "cssparser-macros-0.7.1-LICENSE"
+    ]
+  },
+  {
+    "name": "ctor",
+    "version": "1.0.13",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/ctor/1.0.13",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ctor-1.0.13-LICENSE-APACHE",
+      "ctor-1.0.13-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "darling",
+    "version": "0.24.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/darling/0.24.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "darling-0.24.1-LICENSE"
+    ]
+  },
+  {
+    "name": "darling_core",
+    "version": "0.24.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/darling_core/0.24.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "darling_core-0.24.1-LICENSE"
+    ]
+  },
+  {
+    "name": "darling_macro",
+    "version": "0.24.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/darling_macro/0.24.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "darling_macro-0.24.1-LICENSE"
+    ]
+  },
+  {
+    "name": "defmt",
+    "version": "1.1.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/defmt/1.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "defmt-1.1.1-LICENSE-APACHE",
+      "defmt-1.1.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "defmt-macros",
+    "version": "1.1.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/defmt-macros/1.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "defmt-macros-1.1.1-LICENSE-APACHE",
+      "defmt-macros-1.1.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "defmt-parser",
+    "version": "1.0.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/defmt-parser/1.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "defmt-parser-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "deranged",
+    "version": "0.5.8",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/deranged/0.5.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "deranged-0.5.8-LICENSE-Apache",
+      "deranged-0.5.8-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "derive_more",
+    "version": "2.1.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/derive_more/2.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "derive_more-2.1.1-LICENSE"
+    ]
+  },
+  {
+    "name": "derive_more-impl",
+    "version": "2.1.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/derive_more-impl/2.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "derive_more-impl-2.1.1-LICENSE"
+    ]
+  },
+  {
+    "name": "diff",
+    "version": "0.1.13",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/diff/0.1.13",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "diff-0.1.13-LICENSE-APACHE",
+      "diff-0.1.13-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "digest",
+    "version": "0.10.7",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/digest/0.10.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "digest-0.10.7-LICENSE-APACHE",
+      "digest-0.10.7-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "dirs",
+    "version": "7.0.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/dirs/7.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dirs-7.0.0-LICENSE-APACHE",
+      "dirs-7.0.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "dirs-sys",
+    "version": "0.5.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/dirs-sys/0.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dirs-sys-0.5.0-LICENSE-APACHE",
+      "dirs-sys-0.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "displaydoc",
+    "version": "0.2.7",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/displaydoc/0.2.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "displaydoc-0.2.7-LICENSE-APACHE",
+      "displaydoc-0.2.7-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "dom_query",
+    "version": "0.28.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/dom_query/0.28.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dom_query-0.28.0-LICENSE"
+    ]
+  },
+  {
+    "name": "dpi",
+    "version": "0.1.2",
+    "license": "Apache-2.0 AND MIT",
+    "source": "https://crates.io/crates/dpi/0.1.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dpi-0.1.2-LICENSE",
+      "dpi-0.1.2-LICENSE-LIBM-MIT"
+    ]
+  },
+  {
+    "name": "dtoa",
+    "version": "1.0.11",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/dtoa/1.0.11",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dtoa-1.0.11-LICENSE-APACHE",
+      "dtoa-1.0.11-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "dtoa-short",
+    "version": "0.3.5",
+    "license": "MPL-2.0",
+    "source": "https://crates.io/crates/dtoa-short/0.3.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dtoa-short-0.3.5-LICENSE"
+    ]
+  },
+  {
+    "name": "dunce",
+    "version": "1.0.5",
+    "license": "CC0-1.0 OR MIT-0 OR Apache-2.0",
+    "source": "https://crates.io/crates/dunce/1.0.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dunce-1.0.5-LICENSE"
+    ]
+  },
+  {
+    "name": "dyn-clone",
+    "version": "1.0.20",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/dyn-clone/1.0.20",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "dyn-clone-1.0.20-LICENSE-APACHE",
+      "dyn-clone-1.0.20-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "ecb",
+    "version": "0.1.2",
+    "license": "MIT",
+    "source": "https://crates.io/crates/ecb/0.1.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ecb-0.1.2-LICENSE"
+    ]
+  },
+  {
+    "name": "either",
+    "version": "1.18.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/either/1.18.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "either-1.18.0-LICENSE-APACHE",
+      "either-1.18.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "embed-resource",
+    "version": "3.0.11",
+    "license": "MIT",
+    "source": "https://crates.io/crates/embed-resource/3.0.11",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "embed-resource-3.0.11-LICENSE"
+    ]
+  },
+  {
+    "name": "encoding_rs",
+    "version": "0.8.42",
+    "license": "(Apache-2.0 OR MIT) AND BSD-3-Clause",
+    "source": "https://crates.io/crates/encoding_rs/0.8.42",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "encoding_rs-0.8.42-COPYRIGHT",
+      "encoding_rs-0.8.42-LICENSE-APACHE",
+      "encoding_rs-0.8.42-LICENSE-MIT",
+      "encoding_rs-0.8.42-LICENSE-WHATWG"
+    ]
+  },
+  {
+    "name": "equivalent",
+    "version": "1.0.2",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/equivalent/1.0.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "equivalent-1.0.2-LICENSE-APACHE",
+      "equivalent-1.0.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "erased-serde",
+    "version": "0.4.10",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/erased-serde/0.4.10",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "erased-serde-0.4.10-LICENSE-APACHE",
+      "erased-serde-0.4.10-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "fastrand",
+    "version": "2.5.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/fastrand/2.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "fastrand-2.5.0-LICENSE-APACHE",
+      "fastrand-2.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "fax",
+    "version": "0.2.7",
+    "license": "MIT",
+    "source": "https://crates.io/crates/fax/0.2.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "fax-0.2.7-LICENSE"
+    ]
+  },
+  {
+    "name": "fdeflate",
+    "version": "0.3.7",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/fdeflate/0.3.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "fdeflate-0.3.7-LICENSE-APACHE",
+      "fdeflate-0.3.7-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "find-msvc-tools",
+    "version": "0.1.14",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/find-msvc-tools/0.1.14",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "find-msvc-tools-0.1.14-LICENSE-APACHE",
+      "find-msvc-tools-0.1.14-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "flate2",
+    "version": "1.1.10",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/flate2/1.1.10",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "flate2-1.1.10-LICENSE-APACHE",
+      "flate2-1.1.10-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "fnv",
+    "version": "1.0.7",
+    "license": "Apache-2.0 / MIT",
+    "source": "https://crates.io/crates/fnv/1.0.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "fnv-1.0.7-LICENSE-APACHE",
+      "fnv-1.0.7-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "foldhash",
+    "version": "0.2.0",
+    "license": "Zlib",
+    "source": "https://crates.io/crates/foldhash/0.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "foldhash-0.2.0-LICENSE"
+    ]
+  },
+  {
+    "name": "form_urlencoded",
+    "version": "1.2.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/form_urlencoded/1.2.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "form_urlencoded-1.2.2-LICENSE-APACHE",
+      "form_urlencoded-1.2.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "generic-array",
+    "version": "0.14.7",
+    "license": "MIT",
+    "source": "https://crates.io/crates/generic-array/0.14.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "generic-array-0.14.7-LICENSE"
+    ]
+  },
+  {
+    "name": "getrandom",
+    "version": "0.3.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/getrandom/0.3.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "getrandom-0.3.4-LICENSE-APACHE",
+      "getrandom-0.3.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "getrandom",
+    "version": "0.4.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/getrandom/0.4.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "getrandom-0.4.3-LICENSE-APACHE",
+      "getrandom-0.4.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "glob",
+    "version": "0.3.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/glob/0.3.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "glob-0.3.4-LICENSE-APACHE",
+      "glob-0.3.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "half",
+    "version": "2.7.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/half/2.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "half-2.7.1-LICENSE-APACHE",
+      "half-2.7.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "hashbrown",
+    "version": "0.12.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/hashbrown/0.12.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "hashbrown-0.12.3-LICENSE-APACHE",
+      "hashbrown-0.12.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "hashbrown",
+    "version": "0.17.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/hashbrown/0.17.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "hashbrown-0.17.1-LICENSE-APACHE",
+      "hashbrown-0.17.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "heck",
+    "version": "0.5.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/heck/0.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "heck-0.5.0-LICENSE-APACHE",
+      "heck-0.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "hex",
+    "version": "0.4.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/hex/0.4.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "hex-0.4.3-LICENSE-APACHE",
+      "hex-0.4.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "html5ever",
+    "version": "0.39.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/html5ever/0.39.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "html5ever-0.39.0-LICENSE-APACHE",
+      "html5ever-0.39.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "http",
+    "version": "1.5.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/http/1.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "http-1.5.0-LICENSE-APACHE",
+      "http-1.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "ico",
+    "version": "0.5.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/ico/0.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ico-0.5.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_collections",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_collections/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_collections-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_locale_core",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_locale_core/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_locale_core-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_normalizer",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_normalizer/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_normalizer-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_normalizer_data",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_normalizer_data/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_normalizer_data-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_properties",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_properties/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_properties-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_properties_data",
+    "version": "2.3.0",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_properties_data/2.3.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_properties_data-2.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "icu_provider",
+    "version": "2.3.1",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/icu_provider/2.3.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "icu_provider-2.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "idb-keyval",
+    "version": "6.3.0",
+    "license": "Apache-2.0",
+    "source": "https://www.npmjs.com/package/idb-keyval/v/6.3.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "idb-keyval-6.3.0-LICENCE"
+    ]
+  },
+  {
+    "name": "ident_case",
+    "version": "1.0.1",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/ident_case/1.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ident_case-1.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/idna/1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "idna-1.1.0-LICENSE-APACHE",
+      "idna-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "idna_adapter",
+    "version": "1.2.2",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/idna_adapter/1.2.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "idna_adapter-1.2.2-LICENSE-APACHE",
+      "idna_adapter-1.2.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "image",
+    "version": "0.25.10",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/image/0.25.10",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "image-0.25.10-LICENSE-APACHE",
+      "image-0.25.10-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "image-webp",
+    "version": "0.2.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/image-webp/0.2.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "image-webp-0.2.4-LICENSE-APACHE",
+      "image-webp-0.2.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "indexmap",
+    "version": "1.9.3",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/indexmap/1.9.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "indexmap-1.9.3-LICENSE-APACHE",
+      "indexmap-1.9.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "indexmap",
+    "version": "2.14.2",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/indexmap/2.14.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "indexmap-2.14.2-LICENSE-APACHE",
+      "indexmap-2.14.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "infer",
+    "version": "0.22.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/infer/0.22.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "infer-0.22.0-LICENSE"
+    ]
+  },
+  {
+    "name": "inout",
+    "version": "0.1.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/inout/0.1.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "inout-0.1.4-LICENSE-APACHE",
+      "inout-0.1.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "is-url",
+    "version": "1.2.4",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/is-url/v/1.2.4",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "is-url-1.2.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "itertools",
+    "version": "0.15.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/itertools/0.15.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "itertools-0.15.0-LICENSE-APACHE",
+      "itertools-0.15.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "itoa",
+    "version": "1.0.18",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/itoa/1.0.18",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "itoa-1.0.18-LICENSE-APACHE",
+      "itoa-1.0.18-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jiff",
+    "version": "0.2.37",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/jiff/0.2.37",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jiff-0.2.37-COPYING",
+      "jiff-0.2.37-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jiff-core",
+    "version": "0.1.1",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/jiff-core/0.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jiff-core-0.1.1-COPYING",
+      "jiff-core-0.1.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jiff-static",
+    "version": "0.2.37",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/jiff-static/0.2.37",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jiff-static-0.2.37-COPYING",
+      "jiff-static-0.2.37-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jiff-tzdb",
+    "version": "0.1.8",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/jiff-tzdb/0.1.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jiff-tzdb-0.1.8-COPYING",
+      "jiff-tzdb-0.1.8-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jiff-tzdb-platform",
+    "version": "0.1.3",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/jiff-tzdb-platform/0.1.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jiff-tzdb-platform-0.1.3-COPYING",
+      "jiff-tzdb-platform-0.1.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "json-patch",
+    "version": "4.2.0",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/json-patch/4.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "json-patch-4.2.0-LICENSE-APACHE",
+      "json-patch-4.2.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "jsonptr",
+    "version": "0.7.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/jsonptr/0.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "jsonptr-0.7.1-LICENSE-APACHE",
+      "jsonptr-0.7.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "keyboard-types",
+    "version": "0.8.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/keyboard-types/0.8.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "keyboard-types-0.8.3-LICENSE-APACHE",
+      "keyboard-types-0.8.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "libc",
+    "version": "0.2.190",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/libc/0.2.190",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "libc-0.2.190-LICENSE-APACHE",
+      "libc-0.2.190-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "libloading",
+    "version": "0.9.0",
+    "license": "ISC",
+    "source": "https://crates.io/crates/libloading/0.9.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "libloading-0.9.0-LICENSE"
+    ]
+  },
+  {
+    "name": "litemap",
+    "version": "0.8.3",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/litemap/0.8.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "litemap-0.8.3-LICENSE"
+    ]
+  },
+  {
+    "name": "lock_api",
+    "version": "0.4.14",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/lock_api/0.4.14",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "lock_api-0.4.14-LICENSE-APACHE",
+      "lock_api-0.4.14-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "log",
+    "version": "0.4.34",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/log/0.4.34",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "log-0.4.34-LICENSE-APACHE",
+      "log-0.4.34-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "lopdf",
+    "version": "0.42.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/lopdf/0.42.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "lopdf-0.42.0-LICENSE"
+    ]
+  },
+  {
+    "name": "markup5ever",
+    "version": "0.39.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/markup5ever/0.39.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "markup5ever-0.39.0-LICENSE-APACHE",
+      "markup5ever-0.39.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "maybe-owned",
+    "version": "0.3.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/maybe-owned/0.3.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "maybe-owned-0.3.4-LICENSE-APACHE",
+      "maybe-owned-0.3.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "md-5",
+    "version": "0.10.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/md-5/0.10.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "md-5-0.10.6-LICENSE-APACHE",
+      "md-5-0.10.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "memchr",
+    "version": "2.8.3",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/memchr/2.8.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "memchr-2.8.3-COPYING",
+      "memchr-2.8.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "mime",
+    "version": "0.3.17",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/mime/0.3.17",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "mime-0.3.17-LICENSE-APACHE",
+      "mime-0.3.17-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "miniz_oxide",
+    "version": "0.8.9",
+    "license": "MIT OR Zlib OR Apache-2.0",
+    "source": "https://crates.io/crates/miniz_oxide/0.8.9",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "miniz_oxide-0.8.9-LICENSE",
+      "miniz_oxide-0.8.9-LICENSE-APACHE.md",
+      "miniz_oxide-0.8.9-LICENSE-MIT.md",
+      "miniz_oxide-0.8.9-LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "miniz_oxide",
+    "version": "0.9.1",
+    "license": "MIT OR Zlib OR Apache-2.0",
+    "source": "https://crates.io/crates/miniz_oxide/0.9.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "miniz_oxide-0.9.1-LICENSE",
+      "miniz_oxide-0.9.1-LICENSE-APACHE.md",
+      "miniz_oxide-0.9.1-LICENSE-MIT.md",
+      "miniz_oxide-0.9.1-LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "mio",
+    "version": "1.2.3",
+    "license": "MIT",
+    "source": "https://crates.io/crates/mio/1.2.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "mio-1.2.3-LICENSE"
+    ]
+  },
+  {
+    "name": "moxcms",
+    "version": "0.8.1",
+    "license": "BSD-3-Clause OR Apache-2.0",
+    "source": "https://crates.io/crates/moxcms/0.8.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "moxcms-0.8.1-LICENSE-APACHE.md",
+      "moxcms-0.8.1-LICENSE.md"
+    ]
+  },
+  {
+    "name": "muda",
+    "version": "0.20.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/muda/0.20.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "muda-0.20.0-LICENSE-APACHE",
+      "muda-0.20.0-LICENSE-MIT",
+      "muda-0.20.0-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "multiversion_no_op",
+    "version": "1.0.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/multiversion_no_op/1.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "multiversion_no_op-1.0.0-COPYRIGHT",
+      "multiversion_no_op-1.0.0-LICENSE-APACHE",
+      "multiversion_no_op-1.0.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "new_debug_unreachable",
+    "version": "1.0.6",
+    "license": "MIT",
+    "source": "https://crates.io/crates/new_debug_unreachable/1.0.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "new_debug_unreachable-1.0.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "node-fetch",
+    "version": "2.7.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/node-fetch/v/2.7.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "node-fetch-2.7.0-LICENSE.md"
+    ]
+  },
+  {
+    "name": "nom",
+    "version": "8.0.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/nom/8.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "nom-8.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "num-conv",
+    "version": "0.2.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/num-conv/0.2.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "num-conv-0.2.2-LICENSE-Apache",
+      "num-conv-0.2.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "num-traits",
+    "version": "0.2.19",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/num-traits/0.2.19",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "num-traits-0.2.19-LICENSE-APACHE",
+      "num-traits-0.2.19-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "once_cell",
+    "version": "1.21.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/once_cell/1.21.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "once_cell-1.21.4-LICENSE-APACHE",
+      "once_cell-1.21.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "opencollective-postinstall",
+    "version": "2.0.3",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/opencollective-postinstall/v/2.0.3",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "opencollective-postinstall-2.0.3-LICENSE"
+    ]
+  },
+  {
+    "name": "option-ext",
+    "version": "0.2.0",
+    "license": "MPL-2.0",
+    "source": "https://crates.io/crates/option-ext/0.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "option-ext-0.2.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "parking_lot",
+    "version": "0.12.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/parking_lot/0.12.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "parking_lot-0.12.5-LICENSE-APACHE",
+      "parking_lot-0.12.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "parking_lot_core",
+    "version": "0.9.12",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/parking_lot_core/0.9.12",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "parking_lot_core-0.9.12-LICENSE-APACHE",
+      "parking_lot_core-0.9.12-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "pdfium-render",
+    "version": "0.9.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/pdfium-render/0.9.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "pdfium-render-0.9.4-LICENSE.md"
+    ]
+  },
+  {
+    "name": "percent-encoding",
+    "version": "2.3.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/percent-encoding/2.3.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "percent-encoding-2.3.2-LICENSE-APACHE",
+      "percent-encoding-2.3.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "phf",
+    "version": "0.13.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/phf/0.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "phf-0.13.1-LICENSE"
+    ]
+  },
+  {
+    "name": "phf_codegen",
+    "version": "0.13.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/phf_codegen/0.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "phf_codegen-0.13.1-LICENSE"
+    ]
+  },
+  {
+    "name": "phf_generator",
+    "version": "0.13.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/phf_generator/0.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "phf_generator-0.13.1-LICENSE"
+    ]
+  },
+  {
+    "name": "phf_macros",
+    "version": "0.13.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/phf_macros/0.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "phf_macros-0.13.1-LICENSE"
+    ]
+  },
+  {
+    "name": "phf_shared",
+    "version": "0.13.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/phf_shared/0.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "phf_shared-0.13.1-LICENSE"
+    ]
+  },
+  {
+    "name": "pin-project-lite",
+    "version": "0.2.17",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/pin-project-lite/0.2.17",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "pin-project-lite-0.2.17-LICENSE-APACHE",
+      "pin-project-lite-0.2.17-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "piston-float",
+    "version": "1.0.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/piston-float/1.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "piston-float-1.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "plist",
+    "version": "1.10.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/plist/1.10.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "plist-1.10.1-LICENCE"
+    ]
+  },
+  {
+    "name": "png",
+    "version": "0.17.16",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/png/0.17.16",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "png-0.17.16-LICENSE-APACHE",
+      "png-0.17.16-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "png",
+    "version": "0.18.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/png/0.18.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "png-0.18.1-LICENSE-APACHE",
+      "png-0.18.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "potential_utf",
+    "version": "0.1.6",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/potential_utf/0.1.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "potential_utf-0.1.6-LICENSE"
+    ]
+  },
+  {
+    "name": "powerfmt",
+    "version": "0.2.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/powerfmt/0.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "powerfmt-0.2.0-LICENSE-Apache",
+      "powerfmt-0.2.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "ppv-lite86",
+    "version": "0.2.21",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/ppv-lite86/0.2.21",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ppv-lite86-0.2.21-LICENSE-APACHE",
+      "ppv-lite86-0.2.21-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "precomputed-hash",
+    "version": "0.1.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/precomputed-hash/0.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "precomputed-hash-0.1.1-LICENSE"
+    ]
+  },
+  {
+    "name": "pretty_assertions",
+    "version": "1.4.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/pretty_assertions/1.4.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "pretty_assertions-1.4.1-LICENSE-APACHE",
+      "pretty_assertions-1.4.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/proc-macro2/1.0.107",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "proc-macro2-1.0.107-LICENSE-APACHE",
+      "proc-macro2-1.0.107-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "pxfm",
+    "version": "0.1.30",
+    "license": "BSD-3-Clause OR Apache-2.0",
+    "source": "https://crates.io/crates/pxfm/0.1.30",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "pxfm-0.1.30-LICENSE-APACHE.md",
+      "pxfm-0.1.30-LICENSE.md"
+    ]
+  },
+  {
+    "name": "quick-error",
+    "version": "2.0.1",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/quick-error/2.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "quick-error-2.0.1-LICENSE-APACHE",
+      "quick-error-2.0.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "quick-xml",
+    "version": "0.42.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/quick-xml/0.42.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "quick-xml-0.42.0-LICENSE-MIT.md"
+    ]
+  },
+  {
+    "name": "quote",
+    "version": "1.0.47",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/quote/1.0.47",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "quote-1.0.47-LICENSE-APACHE",
+      "quote-1.0.47-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rand",
+    "version": "0.9.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rand/0.9.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rand-0.9.5-COPYRIGHT",
+      "rand-0.9.5-LICENSE-APACHE",
+      "rand-0.9.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rand",
+    "version": "0.10.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rand/0.10.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rand-0.10.3-COPYRIGHT",
+      "rand-0.10.3-LICENSE-APACHE",
+      "rand-0.10.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rand_chacha",
+    "version": "0.9.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rand_chacha/0.9.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rand_chacha-0.9.0-COPYRIGHT",
+      "rand_chacha-0.9.0-LICENSE-APACHE",
+      "rand_chacha-0.9.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rand_core",
+    "version": "0.9.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rand_core/0.9.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rand_core-0.9.5-COPYRIGHT",
+      "rand_core-0.9.5-LICENSE-APACHE",
+      "rand_core-0.9.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rand_core",
+    "version": "0.10.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rand_core/0.10.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rand_core-0.10.1-COPYRIGHT",
+      "rand_core-0.10.1-LICENSE-APACHE",
+      "rand_core-0.10.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rangemap",
+    "version": "1.8.0",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/rangemap/1.8.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rangemap-1.8.0-LICENSE-APACHE",
+      "rangemap-1.8.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "raw-window-handle",
+    "version": "0.6.2",
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "source": "https://crates.io/crates/raw-window-handle/0.6.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "raw-window-handle-0.6.2-LICENSE-APACHE.md",
+      "raw-window-handle-0.6.2-LICENSE-MIT.md",
+      "raw-window-handle-0.6.2-LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "rayon",
+    "version": "1.12.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rayon/1.12.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rayon-1.12.0-LICENSE-APACHE",
+      "rayon-1.12.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rayon-core",
+    "version": "1.13.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rayon-core/1.13.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rayon-core-1.13.0-LICENSE-APACHE",
+      "rayon-core-1.13.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/react/v/19.3.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "react-19.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/react-dom/v/19.3.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "react-dom-19.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "ref-cast",
+    "version": "1.0.27",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/ref-cast/1.0.27",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ref-cast-1.0.27-LICENSE-APACHE",
+      "ref-cast-1.0.27-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "ref-cast-impl",
+    "version": "1.0.27",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/ref-cast-impl/1.0.27",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ref-cast-impl-1.0.27-LICENSE-APACHE",
+      "ref-cast-impl-1.0.27-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "regenerator-runtime",
+    "version": "0.13.11",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/regenerator-runtime/v/0.13.11",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "regenerator-runtime-0.13.11-LICENSE"
+    ]
+  },
+  {
+    "name": "regex",
+    "version": "1.13.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/regex/1.13.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "regex-1.13.1-LICENSE-APACHE",
+      "regex-1.13.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "regex-automata",
+    "version": "0.4.18",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/regex-automata/0.4.18",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "regex-automata-0.4.18-LICENSE-APACHE",
+      "regex-automata-0.4.18-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "regex-syntax",
+    "version": "0.8.11",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/regex-syntax/0.8.11",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "regex-syntax-0.8.11-LICENSE-APACHE",
+      "regex-syntax-0.8.11-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rfd",
+    "version": "0.15.4",
+    "license": "MIT",
+    "source": "https://crates.io/crates/rfd/0.15.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rfd-0.15.4-LICENSE"
+    ]
+  },
+  {
+    "name": "rustc_version",
+    "version": "0.4.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rustc_version/0.4.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rustc_version-0.4.1-LICENSE-APACHE",
+      "rustc_version-0.4.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustc-hash",
+    "version": "2.1.3",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/rustc-hash/2.1.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rustc-hash-2.1.3-LICENSE-APACHE",
+      "rustc-hash-2.1.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustversion",
+    "version": "1.0.23",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/rustversion/1.0.23",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "rustversion-1.0.23-LICENSE-APACHE",
+      "rustversion-1.0.23-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "same-file",
+    "version": "1.0.6",
+    "license": "Unlicense/MIT",
+    "source": "https://crates.io/crates/same-file/1.0.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "same-file-1.0.6-COPYING",
+      "same-file-1.0.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/scheduler/v/0.28.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "scheduler-0.28.0-LICENSE"
+    ]
+  },
+  {
+    "name": "schemars",
+    "version": "0.8.22",
+    "license": "MIT",
+    "source": "https://crates.io/crates/schemars/0.8.22",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "schemars-0.8.22-LICENSE"
+    ]
+  },
+  {
+    "name": "schemars",
+    "version": "0.9.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/schemars/0.9.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "schemars-0.9.0-LICENSE"
+    ]
+  },
+  {
+    "name": "schemars",
+    "version": "1.2.2",
+    "license": "MIT",
+    "source": "https://crates.io/crates/schemars/1.2.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "schemars-1.2.2-LICENSE"
+    ]
+  },
+  {
+    "name": "schemars_derive",
+    "version": "0.8.22",
+    "license": "MIT",
+    "source": "https://crates.io/crates/schemars_derive/0.8.22",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "schemars_derive-0.8.22-LICENSE"
+    ]
+  },
+  {
+    "name": "scopeguard",
+    "version": "1.2.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/scopeguard/1.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "scopeguard-1.2.0-LICENSE-APACHE",
+      "scopeguard-1.2.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "selectors",
+    "version": "0.38.0",
+    "license": "MPL-2.0",
+    "source": "https://crates.io/crates/selectors/0.38.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "selectors-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "semver",
+    "version": "1.0.28",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/semver/1.0.28",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "semver-1.0.28-LICENSE-APACHE",
+      "semver-1.0.28-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde/1.0.229",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde-1.0.229-LICENSE-APACHE",
+      "serde-1.0.229-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_core",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_core/1.0.229",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_core-1.0.229-LICENSE-APACHE",
+      "serde_core-1.0.229-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_derive",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_derive/1.0.229",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_derive-1.0.229-LICENSE-APACHE",
+      "serde_derive-1.0.229-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_derive_internals",
+    "version": "0.29.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_derive_internals/0.29.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_derive_internals-0.29.1-LICENSE-APACHE",
+      "serde_derive_internals-0.29.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_json",
+    "version": "1.0.151",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_json/1.0.151",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_json-1.0.151-LICENSE-APACHE",
+      "serde_json-1.0.151-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_repr",
+    "version": "0.1.21",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_repr/0.1.21",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_repr-0.1.21-LICENSE-APACHE",
+      "serde_repr-0.1.21-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_spanned",
+    "version": "1.1.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_spanned/1.1.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_spanned-1.1.1-LICENSE-APACHE",
+      "serde_spanned-1.1.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_with",
+    "version": "3.24.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_with/3.24.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_with-3.24.0-LICENSE-APACHE",
+      "serde_with-3.24.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_with_macros",
+    "version": "3.24.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_with_macros/3.24.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde_with_macros-3.24.0-LICENSE-APACHE",
+      "serde_with_macros-3.24.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde-untagged",
+    "version": "0.1.9",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde-untagged/0.1.9",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serde-untagged-0.1.9-LICENSE-APACHE",
+      "serde-untagged-0.1.9-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serialize-to-javascript",
+    "version": "0.1.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serialize-to-javascript/0.1.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serialize-to-javascript-0.1.2-LICENSE-APACHE",
+      "serialize-to-javascript-0.1.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serialize-to-javascript-impl",
+    "version": "0.1.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serialize-to-javascript-impl/0.1.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "serialize-to-javascript-impl-0.1.2-LICENSE-APACHE",
+      "serialize-to-javascript-impl-0.1.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "servo_arc",
+    "version": "0.4.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/servo_arc/0.4.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "servo_arc-0.4.3-LICENSE-APACHE",
+      "servo_arc-0.4.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "sha2",
+    "version": "0.10.9",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/sha2/0.10.9",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "sha2-0.10.9-LICENSE-APACHE",
+      "sha2-0.10.9-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "shlex",
+    "version": "2.0.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/shlex/2.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "shlex-2.0.1-LICENSE-APACHE",
+      "shlex-2.0.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "simd-adler32",
+    "version": "0.3.10",
+    "license": "MIT",
+    "source": "https://crates.io/crates/simd-adler32/0.3.10",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "simd-adler32-0.3.10-LICENSE.md"
+    ]
+  },
+  {
+    "name": "simdutf8",
+    "version": "0.1.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/simdutf8/0.1.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "simdutf8-0.1.5-LICENSE-Apache",
+      "simdutf8-0.1.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "siphasher",
+    "version": "1.0.4",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/siphasher/1.0.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "siphasher-1.0.4-COPYING",
+      "siphasher-1.0.4-LICENSE-APACHE",
+      "siphasher-1.0.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "smallvec",
+    "version": "1.16.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/smallvec/1.16.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "smallvec-1.16.2-LICENSE-APACHE",
+      "smallvec-1.16.2-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "socket2",
+    "version": "0.6.5",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/socket2/0.6.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "socket2-0.6.5-LICENSE-APACHE",
+      "socket2-0.6.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "softbuffer",
+    "version": "0.4.8",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/softbuffer/0.4.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "softbuffer-0.4.8-LICENSE-APACHE",
+      "softbuffer-0.4.8-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "stable_deref_trait",
+    "version": "1.2.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/stable_deref_trait/1.2.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "stable_deref_trait-1.2.1-LICENSE-APACHE",
+      "stable_deref_trait-1.2.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "string_cache",
+    "version": "0.9.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/string_cache/0.9.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "string_cache-0.9.0-LICENSE-APACHE",
+      "string_cache-0.9.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "string_cache_codegen",
+    "version": "0.6.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/string_cache_codegen/0.6.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "string_cache_codegen-0.6.1-LICENSE-APACHE",
+      "string_cache_codegen-0.6.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "stringprep",
+    "version": "0.1.5",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/stringprep/0.1.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "stringprep-0.1.5-LICENSE-APACHE",
+      "stringprep-0.1.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "strsim",
+    "version": "0.11.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/strsim/0.11.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "strsim-0.11.1-LICENSE"
+    ]
+  },
+  {
+    "name": "syn",
+    "version": "2.0.119",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/syn/2.0.119",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "syn-2.0.119-LICENSE-APACHE",
+      "syn-2.0.119-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "syn",
+    "version": "3.0.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/syn/3.0.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "syn-3.0.6-LICENSE-APACHE",
+      "syn-3.0.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "synstructure",
+    "version": "0.14.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/synstructure/0.14.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "synstructure-0.14.0-LICENSE"
+    ]
+  },
+  {
+    "name": "tao",
+    "version": "0.37.1",
+    "license": "Apache-2.0",
+    "source": "https://crates.io/crates/tao/0.37.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tao-0.37.1-LICENSE",
+      "tao-0.37.1-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "tauri",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri/2.12.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-2.12.1-LICENSE-APACHE-2.0",
+      "tauri-2.12.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-build",
+    "version": "2.7.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-build/2.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-build-2.7.1-LICENSE-APACHE-2.0",
+      "tauri-build-2.7.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-codegen",
+    "version": "2.7.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-codegen/2.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-codegen-2.7.1-LICENSE-APACHE-2.0",
+      "tauri-codegen-2.7.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-macros",
+    "version": "2.7.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-macros/2.7.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-macros-2.7.1-LICENSE-APACHE-2.0",
+      "tauri-macros-2.7.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-runtime",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-runtime/2.12.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-runtime-2.12.1-LICENSE-APACHE-2.0",
+      "tauri-runtime-2.12.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-runtime-wry",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-runtime-wry/2.12.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-runtime-wry-2.12.1-LICENSE-APACHE-2.0",
+      "tauri-runtime-wry-2.12.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-utils",
+    "version": "2.10.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tauri-utils/2.10.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-utils-2.10.1-LICENSE-APACHE-2.0",
+      "tauri-utils-2.10.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tauri-winres",
+    "version": "0.3.6",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tauri-winres/0.3.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tauri-winres-0.3.6-LICENSE"
+    ]
+  },
+  {
+    "name": "tempfile",
+    "version": "3.27.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/tempfile/3.27.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tempfile-3.27.0-LICENSE-APACHE",
+      "tempfile-3.27.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tendril",
+    "version": "0.5.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/tendril/0.5.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tendril-0.5.1-LICENSE-APACHE",
+      "tendril-0.5.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tesseract.js",
+    "version": "7.0.0",
+    "license": "Apache-2.0",
+    "source": "https://www.npmjs.com/package/tesseract.js/v/7.0.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "tesseract.js-7.0.0-LICENSE.md"
+    ]
+  },
+  {
+    "name": "tesseract.js-core",
+    "version": "7.0.0",
+    "license": "Apache-2.0",
+    "source": "https://www.npmjs.com/package/tesseract.js-core/v/7.0.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "tesseract.js-core-7.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "thiserror",
+    "version": "2.0.21",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/thiserror/2.0.21",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "thiserror-2.0.21-LICENSE-APACHE",
+      "thiserror-2.0.21-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "thiserror-impl",
+    "version": "2.0.21",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/thiserror-impl/2.0.21",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "thiserror-impl-2.0.21-LICENSE-APACHE",
+      "thiserror-impl-2.0.21-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tiff",
+    "version": "0.11.3",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tiff/0.11.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tiff-0.11.3-LICENSE"
+    ]
+  },
+  {
+    "name": "time",
+    "version": "0.3.55",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/time/0.3.55",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "time-0.3.55-LICENSE-Apache",
+      "time-0.3.55-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "time-core",
+    "version": "0.1.9",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/time-core/0.1.9",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "time-core-0.1.9-LICENSE-Apache",
+      "time-core-0.1.9-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "time-macros",
+    "version": "0.2.32",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/time-macros/0.2.32",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "time-macros-0.2.32-LICENSE-Apache",
+      "time-macros-0.2.32-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tinystr",
+    "version": "0.8.4",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/tinystr/0.8.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tinystr-0.8.4-LICENSE"
+    ]
+  },
+  {
+    "name": "tinyvec",
+    "version": "1.13.3",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/tinyvec/1.13.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tinyvec-1.13.3-LICENSE-APACHE.md",
+      "tinyvec-1.13.3-LICENSE-MIT.md",
+      "tinyvec-1.13.3-LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "tokio",
+    "version": "1.53.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tokio/1.53.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tokio-1.53.1-LICENSE"
+    ]
+  },
+  {
+    "name": "toml",
+    "version": "1.1.6+spec-1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/toml/1.1.6+spec-1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "toml-1.1.6_spec-1.1.0-LICENSE-APACHE",
+      "toml-1.1.6_spec-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "toml_datetime",
+    "version": "1.1.1+spec-1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/toml_datetime/1.1.1+spec-1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "toml_datetime-1.1.1_spec-1.1.0-LICENSE-APACHE",
+      "toml_datetime-1.1.1_spec-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "toml_parser",
+    "version": "1.1.3+spec-1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/toml_parser/1.1.3+spec-1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "toml_parser-1.1.3_spec-1.1.0-LICENSE-APACHE",
+      "toml_parser-1.1.3_spec-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "toml_writer",
+    "version": "1.1.2+spec-1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/toml_writer/1.1.2+spec-1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "toml_writer-1.1.2_spec-1.1.0-LICENSE-APACHE",
+      "toml_writer-1.1.2_spec-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tr46",
+    "version": "0.0.3",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/tr46/v/0.0.3",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "tr46-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "tracing",
+    "version": "0.1.44",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tracing/0.1.44",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tracing-0.1.44-LICENSE"
+    ]
+  },
+  {
+    "name": "tracing-attributes",
+    "version": "0.1.31",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tracing-attributes/0.1.31",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tracing-attributes-0.1.31-LICENSE"
+    ]
+  },
+  {
+    "name": "tracing-core",
+    "version": "0.1.36",
+    "license": "MIT",
+    "source": "https://crates.io/crates/tracing-core/0.1.36",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tracing-core-0.1.36-LICENSE"
+    ]
+  },
+  {
+    "name": "tray-icon",
+    "version": "0.25.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/tray-icon/0.25.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "tray-icon-0.25.1-LICENSE-APACHE",
+      "tray-icon-0.25.1-LICENSE-MIT",
+      "tray-icon-0.25.1-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "ttf-parser",
+    "version": "0.25.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/ttf-parser/0.25.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "ttf-parser-0.25.1-LICENSE-APACHE",
+      "ttf-parser-0.25.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "typeid",
+    "version": "1.0.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/typeid/1.0.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "typeid-1.0.3-LICENSE-APACHE",
+      "typeid-1.0.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "typenum",
+    "version": "1.20.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/typenum/1.20.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "typenum-1.20.1-LICENSE",
+      "typenum-1.20.1-LICENSE-APACHE",
+      "typenum-1.20.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-bidi",
+    "version": "0.3.18",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/unicode-bidi/0.3.18",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "unicode-bidi-0.3.18-COPYRIGHT",
+      "unicode-bidi-0.3.18-LICENSE-APACHE",
+      "unicode-bidi-0.3.18-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-ident",
+    "version": "1.0.26",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "source": "https://crates.io/crates/unicode-ident/1.0.26",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "unicode-ident-1.0.26-LICENSE-APACHE",
+      "unicode-ident-1.0.26-LICENSE-MIT",
+      "unicode-ident-1.0.26-LICENSE-UNICODE"
+    ]
+  },
+  {
+    "name": "unicode-normalization",
+    "version": "0.1.25",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/unicode-normalization/0.1.25",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "unicode-normalization-0.1.25-COPYRIGHT",
+      "unicode-normalization-0.1.25-LICENSE-APACHE",
+      "unicode-normalization-0.1.25-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-properties",
+    "version": "0.1.4",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/unicode-properties/0.1.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "unicode-properties-0.1.4-COPYRIGHT",
+      "unicode-properties-0.1.4-LICENSE-APACHE",
+      "unicode-properties-0.1.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-segmentation",
+    "version": "1.13.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/unicode-segmentation/1.13.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "unicode-segmentation-1.13.3-COPYRIGHT",
+      "unicode-segmentation-1.13.3-LICENSE-APACHE",
+      "unicode-segmentation-1.13.3-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "url",
+    "version": "2.5.8",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/url/2.5.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "url-2.5.8-LICENSE-APACHE",
+      "url-2.5.8-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "urlpattern",
+    "version": "0.6.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/urlpattern/0.6.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "urlpattern-0.6.0-LICENSE"
+    ]
+  },
+  {
+    "name": "utf16string",
+    "version": "0.2.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/utf16string/0.2.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "utf16string-0.2.0-LICENSE-APACHE",
+      "utf16string-0.2.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "utf8_iter",
+    "version": "1.0.4",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/utf8_iter/1.0.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "utf8_iter-1.0.4-COPYRIGHT",
+      "utf8_iter-1.0.4-LICENSE-APACHE",
+      "utf8_iter-1.0.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "uuid",
+    "version": "1.27.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/uuid/1.27.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "uuid-1.27.0-LICENSE-APACHE",
+      "uuid-1.27.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "vecmath",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/vecmath/1.0.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "vecmath-1.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "version_check",
+    "version": "0.9.5",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/version_check/0.9.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "version_check-0.9.5-LICENSE-APACHE",
+      "version_check-0.9.5-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "vswhom",
+    "version": "0.1.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/vswhom/0.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "vswhom-0.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "vswhom-sys",
+    "version": "0.1.3",
+    "license": "MIT",
+    "source": "https://crates.io/crates/vswhom-sys/0.1.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "vswhom-sys-0.1.3-LICENSE"
+    ]
+  },
+  {
+    "name": "walkdir",
+    "version": "2.5.0",
+    "license": "Unlicense/MIT",
+    "source": "https://crates.io/crates/walkdir/2.5.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "walkdir-2.5.0-COPYING",
+      "walkdir-2.5.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasm-feature-detect",
+    "version": "1.9.0",
+    "license": "Apache-2.0",
+    "source": "https://www.npmjs.com/package/wasm-feature-detect/v/1.9.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "wasm-feature-detect-1.9.0-LICENSE"
+    ]
+  },
+  {
+    "name": "web_atoms",
+    "version": "0.2.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/web_atoms/0.2.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "web_atoms-0.2.6-LICENSE-APACHE",
+      "web_atoms-0.2.6-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "web-time",
+    "version": "1.1.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/web-time/1.1.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "web-time-1.1.0-LICENSE-APACHE",
+      "web-time-1.1.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "webidl-conversions",
+    "version": "3.0.1",
+    "license": "BSD-2-Clause",
+    "source": "https://www.npmjs.com/package/webidl-conversions/v/3.0.1",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "webidl-conversions-3.0.1-LICENSE.md"
+    ]
+  },
+  {
+    "name": "webview2-com",
+    "version": "0.39.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/webview2-com/0.39.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "webview2-com-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "webview2-com-macros",
+    "version": "0.8.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/webview2-com-macros/0.8.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "webview2-com-macros-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "webview2-com-sys",
+    "version": "0.39.1",
+    "license": "MIT",
+    "source": "https://crates.io/crates/webview2-com-sys/0.39.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "webview2-com-sys-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "weezl",
+    "version": "0.1.12",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/weezl/0.1.12",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "weezl-0.1.12-LICENSE-APACHE",
+      "weezl-0.1.12-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "whatwg-url",
+    "version": "5.0.0",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/whatwg-url/v/5.0.0",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "whatwg-url-5.0.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "winapi-util",
+    "version": "0.1.11",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/winapi-util/0.1.11",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "winapi-util-0.1.11-COPYING",
+      "winapi-util-0.1.11-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "window-vibrancy",
+    "version": "0.8.1",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/window-vibrancy/0.8.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "window-vibrancy-0.8.1-LICENSE-APACHE",
+      "window-vibrancy-0.8.1-LICENSE-MIT",
+      "window-vibrancy-0.8.1-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "windows",
+    "version": "0.62.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows/0.62.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-0.62.2-license-apache-2.0",
+      "windows-0.62.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows_x86_64_msvc",
+    "version": "0.52.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows_x86_64_msvc/0.52.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows_x86_64_msvc-0.52.6-license-apache-2.0",
+      "windows_x86_64_msvc-0.52.6-license-mit"
+    ]
+  },
+  {
+    "name": "windows-collections",
+    "version": "0.3.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-collections/0.3.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-collections-0.3.2-license-apache-2.0",
+      "windows-collections-0.3.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows-core",
+    "version": "0.62.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-core/0.62.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-core-0.62.2-license-apache-2.0",
+      "windows-core-0.62.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows-future",
+    "version": "0.3.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-future/0.3.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-future-0.3.2-license-apache-2.0",
+      "windows-future-0.3.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows-implement",
+    "version": "0.60.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-implement/0.60.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-implement-0.60.2-license-apache-2.0",
+      "windows-implement-0.60.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows-interface",
+    "version": "0.59.3",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-interface/0.59.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-interface-0.59.3-license-apache-2.0",
+      "windows-interface-0.59.3-license-mit"
+    ]
+  },
+  {
+    "name": "windows-link",
+    "version": "0.2.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-link/0.2.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-link-0.2.1-license-apache-2.0",
+      "windows-link-0.2.1-license-mit"
+    ]
+  },
+  {
+    "name": "windows-numerics",
+    "version": "0.3.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-numerics/0.3.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-numerics-0.3.1-license-apache-2.0",
+      "windows-numerics-0.3.1-license-mit"
+    ]
+  },
+  {
+    "name": "windows-result",
+    "version": "0.4.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-result/0.4.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-result-0.4.1-license-apache-2.0",
+      "windows-result-0.4.1-license-mit"
+    ]
+  },
+  {
+    "name": "windows-strings",
+    "version": "0.5.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-strings/0.5.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-strings-0.5.1-license-apache-2.0",
+      "windows-strings-0.5.1-license-mit"
+    ]
+  },
+  {
+    "name": "windows-sys",
+    "version": "0.59.0",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-sys/0.59.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-sys-0.59.0-license-apache-2.0",
+      "windows-sys-0.59.0-license-mit"
+    ]
+  },
+  {
+    "name": "windows-sys",
+    "version": "0.61.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-sys/0.61.2",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-sys-0.61.2-license-apache-2.0",
+      "windows-sys-0.61.2-license-mit"
+    ]
+  },
+  {
+    "name": "windows-targets",
+    "version": "0.52.6",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-targets/0.52.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-targets-0.52.6-license-apache-2.0",
+      "windows-targets-0.52.6-license-mit"
+    ]
+  },
+  {
+    "name": "windows-threading",
+    "version": "0.2.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-threading/0.2.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-threading-0.2.1-license-apache-2.0",
+      "windows-threading-0.2.1-license-mit"
+    ]
+  },
+  {
+    "name": "windows-version",
+    "version": "0.1.7",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/windows-version/0.1.7",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "windows-version-0.1.7-license-apache-2.0",
+      "windows-version-0.1.7-license-mit"
+    ]
+  },
+  {
+    "name": "winnow",
+    "version": "1.0.4",
+    "license": "MIT",
+    "source": "https://crates.io/crates/winnow/1.0.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "winnow-1.0.4-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "winreg",
+    "version": "0.55.0",
+    "license": "MIT",
+    "source": "https://crates.io/crates/winreg/0.55.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "winreg-0.55.0-LICENSE"
+    ]
+  },
+  {
+    "name": "writeable",
+    "version": "0.6.4",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/writeable/0.6.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "writeable-0.6.4-LICENSE"
+    ]
+  },
+  {
+    "name": "wry",
+    "version": "0.57.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/wry/0.57.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "wry-0.57.0-LICENSE-APACHE",
+      "wry-0.57.0-LICENSE-MIT",
+      "wry-0.57.0-LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "yansi",
+    "version": "1.0.1",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/yansi/1.0.1",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "yansi-1.0.1-LICENSE-APACHE",
+      "yansi-1.0.1-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "yoke",
+    "version": "0.8.3",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/yoke/0.8.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "yoke-0.8.3-LICENSE"
+    ]
+  },
+  {
+    "name": "yoke-derive",
+    "version": "0.8.4",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/yoke-derive/0.8.4",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "yoke-derive-0.8.4-LICENSE"
+    ]
+  },
+  {
+    "name": "zerocopy",
+    "version": "0.8.59",
+    "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/zerocopy/0.8.59",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerocopy-0.8.59-LICENSE-APACHE",
+      "zerocopy-0.8.59-LICENSE-BSD",
+      "zerocopy-0.8.59-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "zerocopy-derive",
+    "version": "0.8.59",
+    "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/zerocopy-derive/0.8.59",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerocopy-derive-0.8.59-LICENSE-APACHE",
+      "zerocopy-derive-0.8.59-LICENSE-BSD",
+      "zerocopy-derive-0.8.59-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "zerofrom",
+    "version": "0.1.8",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/zerofrom/0.1.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerofrom-0.1.8-LICENSE"
+    ]
+  },
+  {
+    "name": "zerofrom-derive",
+    "version": "0.1.8",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/zerofrom-derive/0.1.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerofrom-derive-0.1.8-LICENSE"
+    ]
+  },
+  {
+    "name": "zeroize",
+    "version": "1.9.0",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/zeroize/1.9.0",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zeroize-1.9.0-LICENSE-APACHE",
+      "zeroize-1.9.0-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "zerotrie",
+    "version": "0.2.5",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/zerotrie/0.2.5",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerotrie-0.2.5-LICENSE"
+    ]
+  },
+  {
+    "name": "zerovec",
+    "version": "0.11.8",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/zerovec/0.11.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerovec-0.11.8-LICENSE"
+    ]
+  },
+  {
+    "name": "zerovec-derive",
+    "version": "0.11.6",
+    "license": "Unicode-3.0",
+    "source": "https://crates.io/crates/zerovec-derive/0.11.6",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zerovec-derive-0.11.6-LICENSE"
+    ]
+  },
+  {
+    "name": "zlib-rs",
+    "version": "0.6.8",
+    "license": "Zlib",
+    "source": "https://crates.io/crates/zlib-rs/0.6.8",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zlib-rs-0.6.8-LICENSE"
+    ]
+  },
+  {
+    "name": "zlibjs",
+    "version": "0.3.1",
+    "license": "MIT",
+    "source": "https://www.npmjs.com/package/zlibjs/v/0.3.1",
+    "distribution": "Frontend or offline OCR runtime",
+    "notices": [
+      "zlibjs-0.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "zmij",
+    "version": "1.0.23",
+    "license": "MIT",
+    "source": "https://crates.io/crates/zmij/1.0.23",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zmij-1.0.23-LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "zune-core",
+    "version": "0.5.3",
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "source": "https://crates.io/crates/zune-core/0.5.3",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zune-core-0.5.3-LICENSE-APACHE",
+      "zune-core-0.5.3-LICENSE-MIT",
+      "zune-core-0.5.3-LICENSE-ZLIB"
+    ]
+  },
+  {
+    "name": "zune-jpeg",
+    "version": "0.5.15",
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "source": "https://crates.io/crates/zune-jpeg/0.5.15",
+    "distribution": "Windows native build graph; unchanged upstream crate",
+    "notices": [
+      "zune-jpeg-0.5.15-LICENSE-APACHE",
+      "zune-jpeg-0.5.15-LICENSE-MIT",
+      "zune-jpeg-0.5.15-LICENSE-ZLIB"
+    ]
+  }
+]

@@ -1,0 +1,863 @@
+/* Shared presentation contracts. Reference map: docs/DESIGN_RESEARCH.md. */
+:root {
+  font: 12px/1.45 var(--font-ui);
+  color: var(--ink);
+  background: var(--shell);
+}
+body,
+.app {
+  background: var(--shell);
+  color: var(--ink);
+}
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-ui);
+}
+button {
+  transition:
+    background-color var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out),
+    translate var(--motion-fast) var(--ease-out);
+}
+button:not(:disabled):hover {
+  background: var(--hover);
+}
+button:not(:disabled):active {
+  translate: 0 1px;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+:where(button, input, textarea, select, summary, a):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+input,
+textarea,
+select,
+.select-trigger {
+  color: var(--ink);
+  background: var(--input);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-small);
+  box-shadow: none;
+  font-size: 12px;
+}
+input:not([type="checkbox"]):not([type="range"]):not([type="color"]),
+.select-trigger {
+  min-height: var(--control);
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--subtle);
+  opacity: 1;
+}
+input[type="number"],
+.read-property,
+.statusbar,
+.key-hint {
+  font-variant-numeric: tabular-nums;
+}
+input[type="range"],
+input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+.primary,
+.secondary,
+.text-button,
+.compact {
+  min-height: 30px;
+  border-radius: var(--radius-small);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 10px;
+  box-shadow: none;
+  text-shadow: none;
+  background-image: none;
+}
+.primary {
+  background: var(--primary);
+  color: var(--on-primary);
+  border: 1px solid transparent;
+}
+.primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--primary) 90%, var(--on-primary));
+  color: var(--on-primary);
+  box-shadow: none;
+}
+.secondary {
+  background: var(--hover);
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+}
+.text-button {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--muted);
+}
+.icon-button {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  border: 0;
+  border-radius: var(--radius-small);
+  color: var(--muted);
+  box-shadow: none;
+}
+.icon-button.active,
+.text-button[aria-pressed="true"],
+.studio-tabs .active {
+  background: var(--accent-bg);
+  color: var(--ink);
+  box-shadow: inset 0 -2px var(--accent);
+}
+button::before,
+button::after {
+  pointer-events: none;
+}
+.primary::before,
+.primary::after,
+.secondary::before,
+.secondary::after {
+  display: none;
+}
+.small,
+small,
+.field-label {
+  font-size: 11px;
+}
+.muted {
+  color: var(--muted);
+}
+.subtle {
+  color: var(--subtle);
+}
+.danger,
+.error,
+.new-document-error {
+  color: var(--danger);
+}
+kbd,
+.key-hint {
+  font: 10px/1.4 var(--font-ui);
+  color: var(--subtle);
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+h2,
+h3 {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.divider {
+  width: 1px;
+  height: 18px;
+  background: var(--line-strong);
+  margin: 0 6px;
+}
+/* One opaque base; blur is limited to the transient top layer. */
+dialog,
+dialog[open] {
+  color: var(--ink);
+  background: var(--floating);
+  background-image: none;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-modal);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 40px);
+  overflow: auto;
+  padding: 0;
+  clip-path: none;
+  transform: none;
+}
+dialog[open] {
+  animation: surface-arrive var(--motion-dialog) var(--ease-out) both;
+}
+dialog::before,
+dialog::after,
+.oled-atmosphere::before,
+.oled-atmosphere::after {
+  display: none;
+}
+dialog::backdrop {
+  background: #0006;
+  backdrop-filter: blur(2px);
+  animation: backdrop-arrive var(--motion-menu) linear;
+}
+dialog[open] > header,
+dialog[open] > :not(header) {
+  animation: none;
+}
+dialog > header {
+  min-height: 48px;
+  padding: 12px 16px;
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+}
+dialog > header h2 {
+  font-size: 15px;
+  letter-spacing: -0.15px;
+}
+dialog footer {
+  min-height: 48px;
+  padding: 10px 16px;
+  border-top: 1px solid var(--line);
+  background: transparent;
+  box-shadow: none;
+}
+.dialog-body {
+  padding: 20px;
+}
+.dialog-body p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.dialog-body .field {
+  margin-bottom: 12px;
+}
+.select-menu,
+.context-menu,
+.font-menu[popover] {
+  background: var(--floating);
+  background-image: none;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-floating);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(var(--glass-blur));
+  padding: 5px;
+  animation: menu-arrive var(--motion-menu) var(--ease-out) both;
+}
+.select-menu,
+.context-menu {
+  max-height: min(440px, calc(100dvh - 16px));
+  overflow: auto;
+}
+.select-menu button,
+.context-menu button {
+  min-height: 30px;
+  border: 0;
+  border-radius: 4px;
+  padding: 5px 8px;
+  color: var(--muted);
+  font-size: 12px;
+  box-shadow: none;
+  translate: none;
+}
+.select-menu button:hover,
+.context-menu button:hover,
+.select-menu .chosen,
+.context-menu button:focus-visible {
+  color: var(--ink);
+  background: var(--hover);
+  padding-left: 8px;
+  box-shadow: none;
+}
+.select-menu [aria-selected="true"] {
+  color: var(--ink);
+}
+.described-menu button {
+  min-height: 46px;
+  gap: 10px;
+}
+.described-menu button > span:first-child {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  font-weight: 500;
+}
+.described-menu small {
+  font-size: 11px;
+  color: var(--subtle);
+  font-weight: 400;
+}
+.described-menu kbd {
+  flex-shrink: 0;
+}
+.described-menu button:last-child {
+  border-top: 1px solid var(--line);
+  margin-top: 4px;
+  border-radius: 0 0 4px 4px;
+}
+.inspector-section {
+  border-bottom: 1px solid var(--line);
+  padding: 14px 16px;
+}
+.section-title {
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.section-collapse {
+  transition: grid-template-rows var(--motion-panel) var(--ease-out);
+}
+.section-content {
+  padding-top: 10px;
+}
+.inspector-hint {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.selection-icon {
+  background: transparent;
+  color: var(--muted);
+}
+.type-style-actions button,
+.object-align button {
+  border: 0;
+  background: var(--hover);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.selection-hud,
+.page-text-actions,
+.transform-readout {
+  background: var(--floating);
+  color: var(--ink);
+  border-color: var(--line-strong);
+  box-shadow: var(--shadow);
+  font-size: 11px;
+}
+.selection-hud {
+  animation: menu-arrive var(--motion-menu) var(--ease-out);
+}
+.page-text-actions > span,
+.page-text-actions > button {
+  font-size: 11px;
+  color: var(--muted);
+}
+/* Preferences: align text and controls, reserve outlines for selected previews. */
+.preferences-layout {
+  background: var(--panel);
+  min-height: 420px;
+}
+.preferences-layout > nav {
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  padding: 12px 8px;
+  width: 174px;
+}
+.preferences-layout > nav button {
+  color: var(--muted);
+  min-height: 32px;
+  border: 0;
+  background: transparent;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+.preferences-layout > nav button.active {
+  color: var(--ink);
+  background: var(--hover);
+  box-shadow: none;
+}
+.preferences-label,
+.preference-index,
+.section-eyebrow {
+  display: none;
+}
+.preferences-content {
+  background: transparent;
+  padding: 24px;
+  animation: section-arrive var(--motion-panel) var(--ease-out);
+}
+.preferences-content h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.preferences-content p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.preference-row {
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+  min-height: 50px;
+  gap: 20px;
+}
+.preference-row strong {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.preference-row small {
+  font-size: 11px;
+  color: var(--subtle);
+  line-height: 1.5;
+}
+.preference-row > span {
+  color: var(--ink);
+}
+.preference-note {
+  padding: 12px 0;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: 12px;
+}
+.appearance-choices {
+  gap: 12px;
+}
+.appearance-choices button {
+  padding: 8px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+}
+.appearance-choices button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  color: var(--ink);
+}
+.shortcut-list {
+  gap: 0;
+}
+.shortcut-list > div {
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  border-radius: 0;
+  padding: 10px 0;
+}
+.about-papier {
+  background: transparent;
+}
+.about-papier h2 {
+  font-size: 24px;
+}
+/* Catalogues: content already provides structure; don't wrap every item. */
+.tool-library,
+.new-document {
+  background: var(--panel);
+}
+.tool-library-search {
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 16px;
+}
+.tool-library-search input {
+  border: 0;
+  background: transparent;
+  font-size: 13px;
+}
+.tool-library-body > nav,
+.template-categories {
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+}
+.tool-library-body > nav button,
+.template-categories button {
+  border: 0;
+  color: var(--muted);
+  border-radius: 5px;
+  font-size: 12px;
+}
+.tool-library-body > nav button[aria-pressed="true"],
+.template-categories button.chosen {
+  background: var(--hover);
+  color: var(--ink);
+  box-shadow: none;
+}
+.tool-library-row {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.tool-library-row strong {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 500;
+}
+.tool-library-row small {
+  color: var(--muted);
+  font-size: 11px;
+}
+.tool-library-row > button {
+  border-radius: 4px;
+}
+.template-browser,
+.template-config {
+  background: transparent;
+}
+.template-tile {
+  background: transparent;
+  border: 1px solid transparent;
+  box-shadow: none;
+  border-radius: 6px;
+}
+.template-tile.selected {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  box-shadow: none;
+}
+.template-tile:hover .template-paper {
+  transform: none;
+}
+.template-tile strong,
+.preset-summary {
+  color: var(--ink);
+}
+.template-tile small,
+.preset-note,
+.save-location,
+.save-description {
+  color: var(--muted);
+  font-size: 11px;
+}
+/* Font specimens use actual bundled fonts, with metadata kept in the UI face. */
+.font-menu[popover] {
+  width: 330px;
+  max-height: min(470px, calc(100dvh - 16px));
+}
+.font-search input {
+  background: transparent;
+  border: 0;
+}
+.font-categories {
+  border-bottom: 1px solid var(--line);
+  gap: 2px;
+}
+.font-categories button {
+  font-size: 11px;
+  color: var(--muted);
+  padding: 5px 6px;
+  border-radius: 4px;
+}
+.font-categories [aria-pressed="true"] {
+  background: var(--hover);
+  color: var(--ink);
+}
+.font-sample {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+  color: var(--subtle);
+  font-size: 11px;
+}
+.font-sample input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+}
+.font-menu [role="option"] {
+  min-height: 40px;
+  border: 0;
+  border-radius: 4px;
+  color: var(--ink);
+}
+.font-menu [role="option"] > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 15px;
+}
+.font-menu [role="option"] > span > small {
+  font: 10px var(--font-ui);
+  color: var(--subtle);
+}
+.font-menu footer {
+  padding: 8px;
+  color: var(--muted);
+  font-size: 11px;
+}
+/* Command instrument: stable rows, grouped results, useful footer. */
+dialog.command-palette {
+  width: 580px;
+  margin-top: min(16vh, 130px);
+  border-radius: 10px;
+}
+.palette-search {
+  height: 56px;
+  padding: 12px 16px;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+}
+.palette-search input {
+  background: transparent;
+  border: 0;
+  font-size: 14px;
+}
+.palette-list {
+  padding: 6px;
+  max-height: min(440px, 60vh);
+}
+.palette-group {
+  font-size: 11px;
+  color: var(--subtle);
+  padding: 12px 10px 5px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.palette-list button {
+  min-height: 36px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 12px;
+  background: transparent;
+  color: var(--muted);
+}
+.palette-list button.chosen {
+  background: var(--hover);
+  color: var(--ink);
+  box-shadow: none;
+}
+.palette-list button small {
+  color: var(--subtle);
+  font-size: 11px;
+}
+.palette-footer {
+  color: var(--muted);
+  font-size: 11px;
+  padding: 10px 16px;
+}
+.palette-footer button {
+  color: var(--ink);
+  font-size: 11px;
+  padding: 4px;
+}
+.palette-empty,
+.tool-library-empty {
+  color: var(--muted);
+  font-size: 12px;
+}
+.toast {
+  color: var(--ink);
+  background: var(--floating);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  font-size: 12px;
+}
+.toast.error {
+  color: var(--danger);
+}
+.drop-zone {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--accent);
+}
+/* Motion is causal: controls respond; stable workspace content does not dance. */
+@keyframes menu-arrive {
+  from {
+    opacity: 0;
+    translate: 0 -4px;
+  }
+  to {
+    opacity: 1;
+    translate: 0;
+  }
+}
+@keyframes surface-arrive {
+  from {
+    opacity: 0;
+    translate: 0 10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0;
+  }
+}
+@keyframes section-arrive {
+  from {
+    opacity: 0.4;
+    translate: 0 4px;
+  }
+  to {
+    opacity: 1;
+    translate: 0;
+  }
+}
+@keyframes backdrop-arrive {
+  from {
+    background: #0000;
+  }
+  to {
+    background: #0006;
+  }
+}
+html[data-glass="false"] dialog,
+html[data-glass="false"] .select-menu,
+html[data-glass="false"] .context-menu {
+  backdrop-filter: none;
+}
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+@media (max-width: 1000px) {
+  .global-search kbd {
+    display: none;
+  }
+  .preferences-content {
+    padding: 20px;
+  }
+}
+@media (max-height: 720px) {
+  .preferences-layout {
+    min-height: 360px;
+  }
+  .preferences-content {
+    padding: 16px 20px;
+  }
+  .preference-row {
+    padding: 10px 0;
+  }
+}
+/* Sections use one inset, not an outer inset plus a second body inset. */
+.inspector-section {
+  padding: 0;
+}
+.section-toggle {
+  padding: 12px 16px;
+  min-height: 36px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--muted);
+  text-transform: none;
+}
+.section-body {
+  padding: 0 16px 16px;
+}
+.section-body .selection-type {
+  padding: 0;
+}
+.section-body .object-align {
+  gap: 4px;
+}
+.section-body .object-align button {
+  padding: 4px;
+  line-height: 1.3;
+}
+.primary.text-button,
+.document-mode .command-bridge .primary.text-button {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.palette-list button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  text-align: left;
+}
+.palette-list button > span:first-of-type {
+  flex: 1;
+  min-width: 0;
+}
+.palette-list button small {
+  margin-left: auto;
+  white-space: nowrap;
+}
+.palette-list button .enter-key {
+  flex: 0;
+  margin-left: 2px;
+}
+.palette-list button svg {
+  color: var(--subtle);
+}
+html:not([data-glass="false"])
+  :is(dialog, .select-menu, .context-menu, .font-menu[popover]) {
+  background: color-mix(in srgb, var(--floating) 96%, transparent);
+}
+
+.icon-button.labeled-tool {
+  width: auto;
+  padding: 0 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.inspector-launch-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.inspector-launch-actions button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 8px 0;
+  border: 0;
+  color: var(--ink);
+  font-size: 12px;
+}
+.inspector-launch-actions button > span {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+}
+.inspector-launch-actions button small {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.inspector-launch-actions button > svg {
+  color: var(--subtle);
+}
+.preference-row input[role="switch"] {
+  appearance: none;
+  width: 30px;
+  height: 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 0;
+  background: var(--input);
+  position: relative;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.preference-row input[role="switch"]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--muted);
+  transform: none;
+  transition: translate var(--motion-fast) var(--ease-out);
+}
+.preference-row input[role="switch"]:checked {
+  background: var(--accent);
+}
+.preference-row input[role="switch"]:checked::after {
+  translate: 12px 0;
+  background: var(--shell);
+}
+.content-apply { margin-top:8px; }
+.palette-list button:not(.chosen):hover { background:transparent; }
+.quiet-launch .primary { box-shadow:none; }
+:root[data-theme="light"] .prism-mark { filter:brightness(.7); }

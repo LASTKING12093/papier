@@ -1,0 +1,15 @@
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+const manifest = JSON.parse(await readFile(new URL('../vendor/pdfium-release.json', import.meta.url)));
+const asset = manifest.assets[0];
+const response = await fetch(asset.url);
+if (!response.ok) throw new Error(`Download failed: ${response.status}`);
+const bytes = Buffer.from(await response.arrayBuffer());
+const digest = `sha256:${createHash('sha256').update(bytes).digest('hex')}`;
+if (digest !== asset.digest) throw new Error('PDFium checksum mismatch');
+await mkdir('vendor/pdfium', { recursive: true });
+await mkdir('.build-cache/downloads', { recursive: true });
+await writeFile('.build-cache/downloads/pdfium.tgz', bytes);
+execFileSync('tar', ['-xzf', '.build-cache/downloads/pdfium.tgz', '-C', 'vendor/pdfium']);
+process.stdout.write(`Verified PDFium ${manifest.tag}\n`);

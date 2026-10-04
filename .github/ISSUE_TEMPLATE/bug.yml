@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible problem in Papier.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach private PDFs, personal data or credentials. For a vulnerability, use private security reporting instead."
+  - type: input
+    id: version
+    attributes:
+      label: Papier version
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version and architecture
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshots or synthetic example
+      description: Remove personal names, paths and sensitive content before sharing.

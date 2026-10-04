@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Caveat.ttf",
+    "sha256": "ddb403be7ad0688dd4e750e84a936e0120349e48feaa0881d01e91b9583eb1d8"
+  },
+  {
+    "file": "CormorantGaramond.ttf",
+    "sha256": "ec812c65ff1e98c5be5821f7ec8c93c414cbc45108f48953fe8e7f13cc4a4753"
+  },
+  {
+    "file": "Manrope.ttf",
+    "sha256": "90867a8d1957cbb7f17cc1d76293a2e189524b023ba1826196b013fb51da7e3a"
+  },
+  {
+    "file": "NotoSans-Regular.ttf",
+    "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5"
+  },
+  {
+    "file": "NotoSerif-Italic.ttf",
+    "sha256": "10bdef19028ece6e2b63ee80666d54c849ae7b91524cc394d4ed28fa674fb4d0"
+  },
+  {
+    "file": "NotoSerif.ttf",
+    "sha256": "72c0367a73c31f71329cb2b24a5ac87d092620e76d5b83a282154f446cad1510"
+  },
+  {
+    "file": "RobotoMono.ttf",
+    "sha256": "54c225b2732c077f92908141838925b123f04615c0f4d6dc831c82dd64c8cc94"
+  }
+]

@@ -1,0 +1,13 @@
+import {mkdir,writeFile,readdir,copyFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const url='https://github.com/qpdf/qpdf/releases/download/v12.4.2/qpdf-12.4.2-msvc64.zip';
+const expected='db87077e683630c1217e0e8f9a20a9749d952ab676e881c3689187763a5de25d';
+const response=await fetch(url);if(!response.ok)throw new Error(`qpdf download: ${response.status}`);const bytes=Buffer.from(await response.arrayBuffer());if(createHash('sha256').update(bytes).digest('hex')!==expected)throw new Error('qpdf checksum mismatch');
+await mkdir('.build-cache/downloads',{recursive:true});
+await mkdir('vendor/qpdf',{recursive:true});await writeFile('.build-cache/downloads/qpdf.zip',bytes);execFileSync('tar',['-xf','.build-cache/downloads/qpdf.zip','-C','vendor/qpdf']);
+await writeFile('vendor/qpdf-release.json',JSON.stringify({version:'12.4.2',url,sha256:expected},null,2));
+const folder=(await readdir('vendor/qpdf')).find(f=>f.startsWith('qpdf-'));
+await mkdir('vendor/pdfium/bin/qpdf',{recursive:true});
+for(const f of await readdir(`vendor/qpdf/${folder}/bin`))if(/\.(exe|dll)$/.test(f))await copyFile(`vendor/qpdf/${folder}/bin/${f}`,`vendor/pdfium/bin/qpdf/${f}`);
+process.stdout.write(`qpdf runtime verified and extracted: ${folder}\n`);

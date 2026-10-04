@@ -1,0 +1,130 @@
+/* Papier semantic tokens. Decisions and reference mapping: docs/DESIGN_SYSTEM.md. */
+:root {
+  color-scheme: dark;
+  --shell: #090b0d;
+  --canvas: #111416;
+  --surface: #15181b;
+  --panel: #191d20;
+  --elevated: #22272b;
+  --floating: #252b30;
+  --input: #22272b;
+  --hover: #ffffff0d;
+  --accent-bg: #bdcedb18;
+  --ink: #e9edf0;
+  --muted: #afb8c0;
+  --subtle: #8c98a3;
+  --line: #ffffff0d;
+  --line-strong: #ffffff26;
+  --accent: #b8cedd;
+  --primary: #e2e9ee;
+  --on-primary: #1a252d;
+  --danger: #f0aaa5;
+  --positive: #a3c9b2;
+  --warning: #d8be8b;
+  --glass-material: var(--floating);
+  --glass-tint: var(--floating);
+  --glass-deep: var(--panel);
+  --glass-edge: var(--line-strong);
+  --glass-highlight: var(--line);
+  --glass-blur: 10px;
+  --glass-shadow: 0 20px 60px #0006, 0 4px 12px #0004;
+  --shadow: 0 8px 24px #0005, 0 2px 6px #0004;
+  --paper-shadow: 0 4px 18px #0004;
+  --control-shadow: none;
+  /* Reserved for the existing optical P mark, never controls or full surfaces. */
+  --prism-pink: #c8c7e6;
+  --prism-ember: #b8cce5;
+  --prism-gold: #e2eafa;
+  --prism-cyan: #b9dce6;
+  --prism-blue: #7d98bd;
+  --prism-spectrum: linear-gradient(
+    105deg,
+    var(--prism-pink),
+    var(--prism-ember) 23%,
+    var(--prism-gold) 43%,
+    var(--prism-cyan) 68%,
+    var(--prism-blue) 84%,
+    var(--prism-pink)
+  );
+  --reflection: linear-gradient(
+    115deg,
+    transparent 30%,
+    #fff2 50%,
+    transparent 70%
+  );
+  --space-0: 4px;
+  --space-1: 4px;
+  --space-xs: 6px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --radius-small: 5px;
+  --radius: 6px;
+  --radius-floating: 8px;
+  --radius-modal: 10px;
+  --control: 30px;
+  --tool: 30px;
+  --toolbar: 44px;
+  --rail: 42px;
+  --navigator: 180px;
+  --inspector: 260px;
+  --font-ui: "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --text-small: 11px;
+  --text-ui: 12px;
+  --text-control: 12px;
+  --text-body: 13px;
+  --text-title: 15px;
+  --text-display: 28px;
+  --motion-fast: 160ms;
+  --motion-menu: 240ms;
+  --motion-panel: 320ms;
+  --motion-dialog: 420ms;
+  --motion-workspace: 480ms;
+  --ease: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-material: cubic-bezier(0.33, 1, 0.68, 1);
+  --z-menu: 50;
+  --z-overlay: 100;
+  --z-toast: 150;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --shell: #e8ebee;
+  --canvas: #d8dde1;
+  --surface: #f4f5f6;
+  --panel: #f9fafb;
+  --elevated: #ffffff;
+  --floating: #ffffff;
+  --input: #ffffff;
+  --hover: #16212b0a;
+  --accent-bg: #31587512;
+  --ink: #20272d;
+  --muted: #525e68;
+  --subtle: #56626b;
+  --line: #15212d12;
+  --line-strong: #15212d35;
+  --accent: #315875;
+  --primary: #293f4f;
+  --on-primary: #ffffff;
+  --danger: #a12f32;
+  --positive: #2c6748;
+  --warning: #755315;
+  --glass-shadow: 0 20px 60px #1b293322, 0 4px 12px #1b293318;
+  --shadow: 0 8px 24px #1b293322, 0 2px 6px #1b293318;
+  --paper-shadow: 0 4px 18px #1b293330;
+}
+
+:root[data-motion="reduced"] {
+  --motion-fast: 0ms;
+  --motion-menu: 0ms;
+  --motion-panel: 0ms;
+  --motion-dialog: 0ms;
+  --motion-workspace: 0ms;
+}
+

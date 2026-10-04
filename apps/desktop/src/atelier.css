@@ -1,0 +1,397 @@
+/* Home: orientation first, a modest document preview, and useful creative entry points. */
+.home-composition {
+  grid-template-columns: 230px minmax(480px, 1fr) 300px;
+  max-width: 1600px;
+  margin-inline: auto;
+}
+.desk-stage {
+  padding: 34px 36px 24px;
+  overflow: auto;
+  gap: 0;
+}
+.desk-stage > header {
+  flex-shrink: 0;
+}
+.desk-welcome {
+  margin: 28px 0 20px;
+}
+.desk-welcome h2 {
+  font-size: 26px;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #e5edf9;
+}
+.desk-welcome p {
+  font-size: 12px;
+  color: #8396b0;
+  line-height: 1.7;
+  margin-top: 9px;
+  max-width: 460px;
+}
+.continue-work {
+  display: grid;
+  grid-template-columns: minmax(140px, 0.9fr) minmax(180px, 1fr);
+  gap: 30px;
+  min-height: 265px;
+  max-height: 330px;
+  flex: 1;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.continue-work .desk-paper-space {
+  height: 100%;
+  padding: 12px 5px 12px 12px;
+  min-height: 0;
+}
+.continue-work .desk-preview-open {
+  height: 100%;
+  max-height: 290px;
+}
+.continue-work .desk-preview-open img {
+  height: 100%;
+  max-height: 290px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.continue-work .desk-blank {
+  height: 250px;
+  max-height: 100%;
+}
+.continue-work .blank-caption {
+  left: 16px;
+  bottom: 20px;
+  font-size: 8px;
+}
+.continue-work .blank-registration {
+  left: 16px;
+  top: 20px;
+  font-size: 7px;
+}
+.continue-work .desk-preview-open > span {
+  display: none;
+}
+.continue-details {
+  min-width: 0;
+  position: relative;
+}
+.continue-details > span {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #6e849f;
+}
+.continue-details h3 {
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  margin: 14px 0 8px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+.continue-details p {
+  color: #8395ad;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.continue-details button {
+  margin-top: 22px;
+  height: 35px;
+  padding-inline: 13px;
+  gap: 18px;
+  font-size: 11px;
+}
+.continue-details > small {
+  display: block;
+  color: #5c718e;
+  font-size: 9px;
+  line-height: 1.6;
+  margin-top: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home-studios {
+  border-top: 1px solid #c4d8f519;
+  padding-top: 22px;
+  flex-shrink: 0;
+  position: relative;
+}
+.home-studios header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 10px;
+}
+.home-studios h3 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.home-studios header > span {
+  font-size: 9px;
+  color: #6e849f;
+}
+.home-studios > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.home-studios button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 12px;
+  border-radius: 8px;
+  border: 1px solid #c8dbf312;
+  text-align: left;
+  background: linear-gradient(110deg, #b7d1ff07, transparent);
+  transition:
+    background 200ms,
+    border-color 200ms,
+    translate 240ms var(--desk-ease);
+}
+.home-studios button:hover {
+  background: #b7d1ff0b;
+  border-color: #c5ddff32;
+  translate: 3px 0;
+}
+.home-studios button > span:not(.ink-demo) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+.home-studios strong {
+  font-size: 12px;
+  font-weight: 500;
+  color: #c3d3e8;
+}
+.home-studios small {
+  font-size: 10px;
+  color: #7e92ad;
+  line-height: 1.5;
+}
+.home-studios button > svg:first-child {
+  color: #98b2d2;
+}
+.home-studios button > svg:last-child {
+  color: #6f85a0;
+  transition: translate 200ms;
+}
+.home-studios button:hover > svg:last-child {
+  translate: 2px -2px;
+  color: #d2e5ff;
+}
+.ink-demo {
+  width: 24px;
+  flex-shrink: 0;
+}
+.ink-demo svg {
+  width: 24px;
+  fill: none;
+  stroke: #aac1de;
+  stroke-width: 1.3;
+}
+.ink-demo path:first-child {
+  opacity: 0.35;
+}
+.home-template-line {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-template-line > span {
+  width: 100%;
+  font-size: 8px;
+  letter-spacing: 1.2px;
+  color: #5d7491;
+  margin-bottom: 4px;
+}
+.home-template-line button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 10px;
+  color: #9eb2cd;
+  padding: 6px 10px;
+  border: 1px solid #bfd9ff18;
+  border-radius: 5px;
+}
+.home-identity {
+  padding-top: 40px;
+}
+.desk-brand {
+  margin-bottom: 56px;
+}
+.ink-reconstruction {
+  padding: 10px 14px;
+  margin-top: 12px;
+  background: #eff4fb;
+  border-radius: 8px;
+  min-height: 140px;
+  color: #14253a;
+  border: 1px solid #cee0f34a;
+}
+.ink-reconstruction header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  color: #607289;
+  gap: 8px;
+}
+.ink-reconstruction header button {
+  padding: 5px 9px;
+  border: 1px solid #afbdce;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #213d5b;
+}
+.ink-reconstruction > .signature-vector {
+  width: 100%;
+  height: 92px;
+  max-height: 110px;
+}
+.ink-reconstruction small {
+  font-size: 9px;
+  color: #75869b;
+}
+.signature-studio[data-mode="Draw"] .signature-draw {
+  height: 175px;
+}
+.signature-studio[data-mode="Draw"] .signature-workspace {
+  overflow: auto;
+}
+.signature-studio[data-mode="Draw"] .signature-draw svg {
+  touch-action: none;
+}
+.signature-properties {
+  gap: 10px;
+}
+dialog:has(.signature-studio) {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.signature-studio {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+.signature-studio > .studio-tabs,
+.signature-studio > footer {
+  flex-shrink: 0;
+}
+.signature-layout {
+  min-height: 0;
+  max-height: calc(85vh - 146px);
+  overflow: auto;
+}
+.signature-draw svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.signature-properties .secondary {
+  font-size: 10px;
+  min-height: 28px;
+}
+.signature-candidates button span {
+  font-size: 10px;
+}
+.signature-live:has(svg path) {
+  background: linear-gradient(125deg, #fcfdff, #e8f0fa);
+}
+@media (min-width: 1600px) {
+  .desk-stage {
+    padding-inline: 58px;
+  }
+  .continue-work {
+    max-height: 365px;
+  }
+  .continue-work .desk-preview-open,
+  .continue-work .desk-preview-open img {
+    max-height: 335px;
+  }
+  .home-studios > div {
+    flex-direction: row;
+  }
+  .home-studios button {
+    flex: 1;
+    min-width: 0;
+  }
+  .home-studios button > svg:last-child {
+    display: none;
+  }
+  .desk-welcome {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 1150px) {
+  .home-composition {
+    grid-template-columns: 200px minmax(340px, 1fr) 245px;
+  }
+  .desk-stage {
+    padding: 28px 20px 20px;
+  }
+  .continue-work {
+    gap: 16px;
+    min-height: 225px;
+    max-height: 250px;
+  }
+  .continue-work .desk-preview-open,
+  .continue-work .desk-preview-open img {
+    max-height: 220px;
+  }
+  .continue-details h3 {
+    font-size: 16px;
+  }
+  .continue-details button {
+    gap: 8px;
+    padding-inline: 9px;
+  }
+  .desk-welcome h2 {
+    font-size: 23px;
+  }
+  .home-studios small {
+    font-size: 9px;
+  }
+  .home-studios header > span {
+    display: none;
+  }
+  .home-studios button {
+    padding: 10px;
+  }
+  .home-identity {
+    padding-inline: 16px;
+  }
+}
+@media (max-height: 760px) {
+  .desk-welcome {
+    margin-top: 18px;
+    margin-bottom: 12px;
+  }
+  .continue-work {
+    min-height: 190px;
+    max-height: 220px;
+    margin-bottom: 14px;
+  }
+  .continue-work .desk-preview-open,
+  .continue-work .desk-preview-open img {
+    max-height: 205px;
+  }
+  .home-studios {
+    padding-top: 14px;
+  }
+  .home-studios button {
+    padding-block: 10px;
+  }
+  .home-template-line {
+    margin-top: 14px;
+  }
+}

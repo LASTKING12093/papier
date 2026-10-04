@@ -1,0 +1,13 @@
+@layer legacy;
+@import "../../../packages/design-system/tokens.css";
+@import "./styles.css" layer(legacy);
+@import "./papier.css" layer(legacy);
+@import "./prism.css" layer(legacy);
+@import "./oled.css" layer(legacy);
+@import "./workbench.css" layer(legacy);
+@import "./atelier.css" layer(legacy);
+@import "./one.css" layer(legacy);
+@import "./system.css";
+@import "./workbench-layout.css";
+@import "./desk.css";
+@import "./motion.css";

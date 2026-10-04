@@ -1,0 +1,2569 @@
+[
+  {
+    "id": "a4",
+    "name": "Blank A4",
+    "category": "Blank",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      []
+    ]
+  },
+  {
+    "id": "a3",
+    "name": "Blank A3",
+    "category": "Blank",
+    "width": 841.89,
+    "height": 1190.55,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      []
+    ]
+  },
+  {
+    "id": "letter",
+    "name": "Blank Letter",
+    "category": "Blank",
+    "width": 612,
+    "height": 792,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      []
+    ]
+  },
+  {
+    "id": "abnt",
+    "name": "ABNT Academic",
+    "category": "Academic",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Times-Roman",
+    "size": 12,
+    "margins": [
+      85.04,
+      56.69,
+      56.69,
+      85.04
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "NOME DA INSTITUIÇÃO",
+          "y": 90,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "NOME DO AUTOR",
+          "y": 180,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "TÍTULO DO TRABALHO",
+          "y": 340,
+          "size": 16,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Subtítulo do trabalho",
+          "y": 372,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Cidade",
+          "y": 730,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "2026",
+          "y": 752,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "NOME DO AUTOR",
+          "y": 90,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "TÍTULO DO TRABALHO",
+          "y": 280,
+          "size": 16,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Trabalho apresentado à instituição como parte dos requisitos do curso. Área de concentração e orientação.",
+          "y": 390,
+          "size": 12,
+          "x": 290,
+          "width": 248
+        },
+        {
+          "type": "text",
+          "text": "Cidade · 2026",
+          "y": 744,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "SUMÁRIO",
+          "y": 90,
+          "size": 14,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "1 INTRODUÇÃO ........................................ 4",
+          "y": 148,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "2 DESENVOLVIMENTO ................................. 5",
+          "y": 184,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "3 CONSIDERAÇÕES FINAIS .......................... 6",
+          "y": 220,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "REFERÊNCIAS .......................................... 7",
+          "y": 256,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "1 INTRODUÇÃO",
+          "y": 90,
+          "size": 14,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Apresente o tema, o problema de pesquisa, os objetivos e a justificativa do trabalho. Substitua este texto pelo conteúdo do seu projeto.",
+          "y": 138,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "O texto é editável. Revise as normas vigentes e as orientações específicas da sua instituição antes da entrega.",
+          "y": 225,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "2 DESENVOLVIMENTO",
+          "y": 90,
+          "size": 14,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "2.1 Fundamentação teórica",
+          "y": 144,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Organize a discussão em seções e subseções. Identifique as fontes das citações e acrescente as referências correspondentes.",
+          "y": 184,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Citação longa: utilize recuo, fonte menor e espaçamento simples, conforme as orientações adotadas pela instituição.",
+          "y": 295,
+          "size": 10,
+          "x": 198,
+          "width": 340
+        },
+        {
+          "type": "text",
+          "text": "Figura 1 – Título da figura",
+          "y": 400,
+          "size": 10,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 450,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Fonte: autoria própria.",
+          "y": 463,
+          "size": 10,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "3 CONSIDERAÇÕES FINAIS",
+          "y": 90,
+          "size": 14,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "Retome os objetivos, apresente os resultados e discuta os limites do trabalho e as possibilidades de continuidade.",
+          "y": 144,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "REFERÊNCIAS",
+          "y": 90,
+          "size": 14,
+          "x": 85,
+          "width": 453
+        },
+        {
+          "type": "text",
+          "text": "SOBRENOME, Nome. Título da obra. Edição. Cidade: Editora, ano.",
+          "y": 148,
+          "size": 12,
+          "x": 85,
+          "width": 453
+        }
+      ]
+    ],
+    "note": "Editable academic preset · v1. Review your institution’s current requirements; this is not a compliance certificate."
+  },
+  {
+    "id": "research",
+    "name": "Research Paper",
+    "category": "Academic",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Research paper",
+          "y": 92,
+          "size": 30,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Author · Institution · Date",
+          "y": 143,
+          "size": 11,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 178,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Abstract",
+          "y": 209,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Summarize the research question, methods and principal findings in this section.",
+          "y": 244,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "1. Introduction",
+          "y": 348,
+          "size": 18,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Introduce the subject and the aims of the study. Replace this content with your own text.",
+          "y": 386,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "2. Methods",
+          "y": 500,
+          "size": 18,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Describe your approach, materials and analysis.",
+          "y": 538,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "report",
+    "name": "Academic Report",
+    "category": "Academic",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Academic report",
+          "y": 105,
+          "size": 30,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Subject / course",
+          "y": 159,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 207,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Prepared by",
+          "y": 245,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Author name",
+          "y": 266,
+          "size": 14,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Overview",
+          "y": 359,
+          "size": 18,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Describe the purpose, scope and results of the work.",
+          "y": 398,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Findings",
+          "y": 510,
+          "size": 18,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Present observations and supporting evidence.",
+          "y": 549,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "contract",
+    "name": "Contract",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Agreement",
+          "y": 85,
+          "size": 30,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "PARTIES",
+          "y": 154,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Between [Party A] and [Party B].",
+          "y": 181,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 216,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "1. Scope",
+          "y": 249,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Describe the services, responsibilities and deliverables agreed by the parties.",
+          "y": 282,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "2. Terms",
+          "y": 388,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Specify duration, payment terms and termination conditions. Obtain appropriate review before use.",
+          "y": 421,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 663,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Signature                                      Date",
+          "y": 684,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "invoice",
+    "name": "Invoice",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "INVOICE",
+          "y": 76,
+          "size": 30,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Your company",
+          "y": 133,
+          "size": 14,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Address · Contact details",
+          "y": 157,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Invoice no. 001",
+          "y": 200,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Bill to: Client name",
+          "y": 237,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 287,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "DESCRIPTION                       QTY         RATE        TOTAL",
+          "y": 311,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Service or product                     1          0.00           0.00",
+          "y": 351,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 396,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Total due                                                  0.00",
+          "y": 429,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Payment terms",
+          "y": 595,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Add payment instructions and due date.",
+          "y": 624,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "proposal",
+    "name": "Proposal",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Project proposal",
+          "y": 97,
+          "size": 32,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Prepared for your client",
+          "y": 151,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 191,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "01   Overview",
+          "y": 236,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Introduce the opportunity and desired outcome.",
+          "y": 274,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "02   Scope & deliverables",
+          "y": 372,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Define what will be delivered and how success will be measured.",
+          "y": 410,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "03   Timeline & investment",
+          "y": 532,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Add milestones, schedule and fees.",
+          "y": 570,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "resume",
+    "name": "Resume",
+    "category": "Personal",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Your name",
+          "y": 77,
+          "size": 30,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Profession / specialization",
+          "y": 124,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Email · Phone · Location",
+          "y": 151,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 184,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "PROFILE",
+          "y": 218,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "A concise overview of your experience and focus.",
+          "y": 248,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "EXPERIENCE",
+          "y": 345,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Role · Company",
+          "y": 376,
+          "size": 15,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Dates · Describe responsibilities and achievements.",
+          "y": 407,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "EDUCATION",
+          "y": 539,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Qualification · Institution",
+          "y": 570,
+          "size": 15,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "SKILLS",
+          "y": 665,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Add relevant skills and languages.",
+          "y": 695,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "letter-personal",
+    "name": "Letter",
+    "category": "Personal",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Your name",
+          "y": 85,
+          "size": 20,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Address · Email",
+          "y": 124,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 165,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Date",
+          "y": 208,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Recipient name",
+          "y": 254,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Dear recipient,",
+          "y": 330,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Write your letter here. All text remains editable in Papier.",
+          "y": 374,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Kind regards,",
+          "y": 616,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Your name",
+          "y": 661,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "certificate",
+    "name": "Certificate",
+    "category": "Print",
+    "width": 841.89,
+    "height": 595.276,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "CERTIFICATE",
+          "y": 114,
+          "size": 34,
+          "x": 72,
+          "width": 698
+        },
+        {
+          "type": "text",
+          "text": "OF ACHIEVEMENT",
+          "y": 173,
+          "size": 12,
+          "x": 72,
+          "width": 698
+        },
+        {
+          "type": "text",
+          "text": "Presented to",
+          "y": 242,
+          "size": 12,
+          "x": 72,
+          "width": 698
+        },
+        {
+          "type": "text",
+          "text": "Recipient name",
+          "y": 286,
+          "size": 32,
+          "x": 72,
+          "width": 698
+        },
+        {
+          "type": "text",
+          "text": "In recognition of their achievement and dedication.",
+          "y": 345,
+          "size": 12,
+          "x": 72,
+          "width": 698
+        },
+        {
+          "type": "text",
+          "text": "Date                                       Signature",
+          "y": 452,
+          "size": 11,
+          "x": 72,
+          "width": 698
+        }
+      ]
+    ]
+  },
+  {
+    "id": "form",
+    "name": "Form",
+    "category": "Forms",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Registration form",
+          "y": 80,
+          "size": 26,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Complete the fields below.",
+          "y": 126,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Full name",
+          "y": 188,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "field",
+          "name": "full_name",
+          "x": 56,
+          "y": 208,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Email",
+          "y": 274,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "field",
+          "name": "email",
+          "x": 56,
+          "y": 294,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Organization",
+          "y": 360,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "field",
+          "name": "organization",
+          "x": 56,
+          "y": 380,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Notes",
+          "y": 446,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "field",
+          "name": "notes",
+          "x": 56,
+          "y": 466,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "letterhead",
+    "name": "Letterhead",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Company name",
+          "y": 69,
+          "size": 20,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Address · Contact · Website",
+          "y": 104,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 142,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Date",
+          "y": 196,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Recipient",
+          "y": 244,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Subject",
+          "y": 310,
+          "size": 16,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Your correspondence starts here.",
+          "y": 358,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 752,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Company details",
+          "y": 771,
+          "size": 9,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "meeting",
+    "name": "Meeting Notes",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Helvetica",
+    "size": 12,
+    "margins": [
+      56.7,
+      56.7,
+      56.7,
+      56.7
+    ],
+    "leading": 1.4,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "Meeting notes",
+          "y": 80,
+          "size": 28,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Date · Time · Location",
+          "y": 129,
+          "size": 10,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "rule",
+          "x": 56,
+          "y": 169,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Attendees",
+          "y": 207,
+          "size": 15,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Add names and roles.",
+          "y": 240,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Agenda",
+          "y": 332,
+          "size": 15,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "1. Topic\n2. Topic\n3. Topic",
+          "y": 365,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Decisions & actions",
+          "y": 522,
+          "size": 15,
+          "x": 56,
+          "width": 480
+        },
+        {
+          "type": "text",
+          "text": "Action item · Owner · Due date",
+          "y": 559,
+          "size": 12,
+          "x": 56,
+          "width": 480
+        }
+      ]
+    ]
+  },
+  {
+    "id": "studio-brief",
+    "name": "Creative Brief",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "STUDIO / PROJECT 01",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Creative brief",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "PROJECT NAME   /   CLIENT   /   DATE",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 48,
+          "y": 183,
+          "size": 11,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "The opportunity",
+          "x": 83,
+          "y": 183,
+          "size": 16,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "What needs to change? Describe the problem in two clear sentences.",
+          "x": 83,
+          "y": 218,
+          "size": 11,
+          "width": 425
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 273,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 48,
+          "y": 300,
+          "size": 11,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Audience & outcome",
+          "x": 83,
+          "y": 300,
+          "size": 16,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Who is this for? What should they understand, feel or do?",
+          "x": 83,
+          "y": 335,
+          "size": 11,
+          "width": 425
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 390,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 48,
+          "y": 417,
+          "size": 11,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Scope & deliverables",
+          "x": 83,
+          "y": 417,
+          "size": 16,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "List the agreed outputs, formats and review checkpoints.",
+          "x": 83,
+          "y": 452,
+          "size": 11,
+          "width": 425
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 507,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 553,
+          "width": 499,
+          "height": 135
+        },
+        {
+          "type": "text",
+          "text": "SUCCESS LOOKS LIKE",
+          "x": 64,
+          "y": 570,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Define a measurable outcome and an owner.",
+          "x": 64,
+          "y": 596,
+          "size": 13,
+          "width": 460
+        },
+        {
+          "type": "text",
+          "text": "Approved by __________________     Due __________________",
+          "x": 64,
+          "y": 645,
+          "size": 10,
+          "width": 460
+        },
+        {
+          "type": "text",
+          "text": "Notes / dependencies",
+          "x": 48,
+          "y": 725,
+          "size": 11,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 787,
+          "width": 499
+        }
+      ]
+    ],
+    "note": "A focused project brief with editable sections and approval space."
+  },
+  {
+    "id": "weekly-focus",
+    "name": "Weekly Focus",
+    "category": "Personal",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "WEEKLY / FOCUS",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "A week with intention",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "WEEK OF __________________       ONE PRIORITY __________________",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "MONDAY",
+          "x": 48,
+          "y": 178,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 205,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 231,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 257,
+          "width": 397
+        },
+        {
+          "type": "text",
+          "text": "TUESDAY",
+          "x": 48,
+          "y": 275,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 302,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 328,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 354,
+          "width": 397
+        },
+        {
+          "type": "text",
+          "text": "WEDNESDAY",
+          "x": 48,
+          "y": 372,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 399,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 425,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 451,
+          "width": 397
+        },
+        {
+          "type": "text",
+          "text": "THURSDAY",
+          "x": 48,
+          "y": 469,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 496,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 522,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 548,
+          "width": 397
+        },
+        {
+          "type": "text",
+          "text": "FRIDAY",
+          "x": 48,
+          "y": 566,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 593,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 619,
+          "width": 397
+        },
+        {
+          "type": "rule",
+          "x": 150,
+          "y": 645,
+          "width": 397
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 690,
+          "width": 499,
+          "height": 97
+        },
+        {
+          "type": "text",
+          "text": "KEEP / CHANGE / NEXT",
+          "x": 63,
+          "y": 707,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "A short reflection to close the week.",
+          "x": 63,
+          "y": 735,
+          "size": 11,
+          "width": 460
+        }
+      ]
+    ],
+    "note": "A printable five-day planner with priorities and reflection."
+  },
+  {
+    "id": "review-checklist",
+    "name": "Review Checklist",
+    "category": "Forms",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "REVIEW / HANDOFF",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Document review",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "DOCUMENT __________________    REVIEWER __________________",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 184,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "type": "text",
+          "text": "Content",
+          "x": 81,
+          "y": 182,
+          "size": 14,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Facts, names, references and required sections",
+          "x": 81,
+          "y": 211,
+          "size": 10,
+          "width": 455
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 248,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 274,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "type": "text",
+          "text": "Typography",
+          "x": 81,
+          "y": 272,
+          "size": 14,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Fonts, hierarchy, spacing and legibility",
+          "x": 81,
+          "y": 301,
+          "size": 10,
+          "width": 455
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 338,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 364,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "type": "text",
+          "text": "Layout",
+          "x": 81,
+          "y": 362,
+          "size": 14,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Margins, alignment, images and page breaks",
+          "x": 81,
+          "y": 391,
+          "size": 10,
+          "width": 455
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 428,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 454,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "type": "text",
+          "text": "Accessibility",
+          "x": 81,
+          "y": 452,
+          "size": 14,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Reading order, contrast and descriptive labels",
+          "x": 81,
+          "y": 481,
+          "size": 10,
+          "width": 455
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 518,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 544,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "type": "text",
+          "text": "Release",
+          "x": 81,
+          "y": 542,
+          "size": 14,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Filename, version, approvals and delivery format",
+          "x": 81,
+          "y": 571,
+          "size": 10,
+          "width": 455
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 608,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "OPEN ISSUES / OWNER / DUE",
+          "x": 48,
+          "y": 666,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "field",
+          "name": "Review notes",
+          "x": 48,
+          "y": 694,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Decision",
+          "x": 48,
+          "y": 753,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "field",
+          "name": "Release decision",
+          "x": 145,
+          "y": 745,
+          "width": 402
+        }
+      ]
+    ],
+    "note": "Editable review checklist with real fillable notes and decision fields."
+  },
+  {
+    "id": "client-intake",
+    "name": "Client Intake",
+    "category": "Forms",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "CLIENT / INTAKE",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Start with clarity",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "A short form to frame the work before it begins.",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Name",
+          "x": 48,
+          "y": 186,
+          "size": 10,
+          "width": 239
+        },
+        {
+          "type": "field",
+          "name": "Contact name",
+          "x": 48,
+          "y": 209,
+          "width": 239
+        },
+        {
+          "type": "text",
+          "text": "Organization",
+          "x": 308,
+          "y": 186,
+          "size": 10,
+          "width": 239
+        },
+        {
+          "type": "field",
+          "name": "Organization",
+          "x": 308,
+          "y": 209,
+          "width": 239
+        },
+        {
+          "type": "text",
+          "text": "Email",
+          "x": 48,
+          "y": 268,
+          "size": 10,
+          "width": 499
+        },
+        {
+          "type": "field",
+          "name": "Email",
+          "x": 48,
+          "y": 291,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Project",
+          "x": 48,
+          "y": 350,
+          "size": 10,
+          "width": 499
+        },
+        {
+          "type": "field",
+          "name": "Project name",
+          "x": 48,
+          "y": 373,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Desired outcome",
+          "x": 48,
+          "y": 432,
+          "size": 10,
+          "width": 499
+        },
+        {
+          "type": "field",
+          "name": "Desired outcome",
+          "x": 48,
+          "y": 455,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Timeline",
+          "x": 48,
+          "y": 514,
+          "size": 10,
+          "width": 239
+        },
+        {
+          "type": "field",
+          "name": "Timeline",
+          "x": 48,
+          "y": 537,
+          "width": 239
+        },
+        {
+          "type": "text",
+          "text": "Budget range",
+          "x": 308,
+          "y": 514,
+          "size": 10,
+          "width": 239
+        },
+        {
+          "type": "field",
+          "name": "Budget range",
+          "x": 308,
+          "y": 537,
+          "width": 239
+        },
+        {
+          "type": "text",
+          "text": "Notes",
+          "x": 48,
+          "y": 596,
+          "size": 10,
+          "width": 499
+        },
+        {
+          "type": "field",
+          "name": "Intake notes",
+          "x": 48,
+          "y": 619,
+          "width": 499
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 725,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Your information stays in this document. Share it only with your intended recipient.",
+          "x": 48,
+          "y": 748,
+          "size": 9,
+          "width": 495
+        }
+      ]
+    ],
+    "note": "Eight fillable fields for a structured client handoff."
+  },
+  {
+    "id": "project-handoff",
+    "name": "Project Handoff",
+    "category": "Business",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "WORK / DELIVERY",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Project handoff",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "PROJECT __________________       VERSION ______       DATE ______",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 48,
+          "y": 187,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "What is included",
+          "x": 83,
+          "y": 187,
+          "size": 17,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "List the deliverables and where the final files are stored.",
+          "x": 83,
+          "y": 224,
+          "size": 11,
+          "width": 450
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 298,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 48,
+          "y": 326,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "How to use it",
+          "x": 83,
+          "y": 326,
+          "size": 17,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Document essential instructions, dependencies and constraints.",
+          "x": 83,
+          "y": 363,
+          "size": 11,
+          "width": 450
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 437,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 48,
+          "y": 465,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Decisions & context",
+          "x": 83,
+          "y": 465,
+          "size": 17,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Explain key choices and why they matter.",
+          "x": 83,
+          "y": 502,
+          "size": 11,
+          "width": 450
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 576,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "x": 48,
+          "y": 604,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Next steps",
+          "x": 83,
+          "y": 604,
+          "size": 17,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Assign ownership, open items and the next review date.",
+          "x": 83,
+          "y": 641,
+          "size": 11,
+          "width": 450
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 715,
+          "width": 499
+        },
+        {
+          "type": "text",
+          "text": "Prepared by __________________     Accepted by __________________",
+          "x": 48,
+          "y": 786,
+          "size": 9,
+          "width": 490
+        }
+      ]
+    ],
+    "note": "A practical delivery note with decisions, instructions and next steps."
+  },
+  {
+    "id": "research-notes",
+    "name": "Research Notes",
+    "category": "Academic",
+    "width": 595.276,
+    "height": 841.89,
+    "version": 1,
+    "font": "Manrope",
+    "size": 11,
+    "margins": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "leading": 1.5,
+    "pages": [
+      [
+        {
+          "type": "text",
+          "text": "STUDY / RESEARCH",
+          "x": 48,
+          "y": 42,
+          "size": 9,
+          "width": 490
+        },
+        {
+          "type": "text",
+          "text": "Reading notes",
+          "x": 48,
+          "y": 74,
+          "size": 30,
+          "width": 490,
+          "font": "Manrope"
+        },
+        {
+          "type": "text",
+          "text": "SOURCE __________________       AUTHOR __________________",
+          "x": 49,
+          "y": 120,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 153,
+          "width": 499
+        },
+        {
+          "type": "panel",
+          "x": 48,
+          "y": 177,
+          "width": 151,
+          "height": 516
+        },
+        {
+          "type": "text",
+          "text": "QUESTIONS",
+          "x": 62,
+          "y": 194,
+          "size": 10,
+          "width": 123
+        },
+        {
+          "type": "text",
+          "text": "What am I trying to understand?",
+          "x": 62,
+          "y": 227,
+          "size": 11,
+          "width": 123
+        },
+        {
+          "type": "text",
+          "text": "KEY TERMS",
+          "x": 62,
+          "y": 364,
+          "size": 10,
+          "width": 123
+        },
+        {
+          "type": "text",
+          "text": "FOLLOW UP",
+          "x": 62,
+          "y": 543,
+          "size": 10,
+          "width": 123
+        },
+        {
+          "type": "text",
+          "text": "NOTES & EVIDENCE",
+          "x": 219,
+          "y": 194,
+          "size": 10,
+          "width": 320
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 241,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 273,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 305,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 337,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 369,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 401,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 433,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 465,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 497,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 529,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 561,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 593,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 625,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 657,
+          "width": 328
+        },
+        {
+          "type": "rule",
+          "x": 219,
+          "y": 689,
+          "width": 328
+        },
+        {
+          "type": "text",
+          "text": "SUMMARY IN YOUR OWN WORDS",
+          "x": 48,
+          "y": 720,
+          "size": 10,
+          "width": 490
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 759,
+          "width": 499
+        },
+        {
+          "type": "rule",
+          "x": 48,
+          "y": 791,
+          "width": 499
+        }
+      ]
+    ],
+    "note": "A two-column notes sheet with questions, evidence and a concise summary."
+  }
+]

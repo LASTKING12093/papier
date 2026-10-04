@@ -1,0 +1,605 @@
+/* Quiet surfaces: one entry point, one active document, one signature at a time. */
+.papier-home.quiet-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: unset;
+  padding: 40px;
+  overflow: auto;
+  min-height: 0;
+  position: relative;
+  background: var(--shell);
+}
+.quiet-home .oled-field {
+  display: none;
+  pointer-events: none;
+}
+.quiet-home-content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 280px minmax(300px, 400px);
+  align-items: center;
+  gap: 64px;
+  width: min(100%, 744px);
+  margin: auto;
+  padding: 40px 0 70px;
+}
+.quiet-welcome {
+  min-width: 0;
+}
+.quiet-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.quiet-brand h1 {
+  font-size: 28px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--ink);
+}
+.quiet-welcome > p {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 17px 0 30px;
+}
+.quiet-launch {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.quiet-launch button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  font-size: 12px;
+  background: var(--hover);
+  color: var(--ink);
+}
+.quiet-launch button.primary {
+  background: var(--primary);
+  color: var(--on-primary);
+  border-color: transparent;
+  box-shadow: 0 2px 9px #0004;
+}
+.quiet-launch kbd {
+  margin-left: auto;
+  font-size: 11px;
+  opacity: 0.5;
+}
+.quiet-drop {
+  display: block;
+  margin: 13px 0 32px;
+  font-size: 11px;
+  color: var(--subtle);
+}
+.quiet-studios {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.quiet-studios button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  height: 31px;
+  padding: 0 4px;
+  text-align: left;
+  font-size: 11px;
+  color: var(--muted);
+  border-radius: 4px;
+}
+.quiet-studios button > svg:last-child,
+.quiet-studios kbd {
+  margin-left: auto;
+  opacity: 0.5;
+  font-size: 11px;
+}
+.quiet-studios button > svg:first-child {
+  margin-left: 0;
+  opacity: 1;
+}
+.quiet-templates {
+  margin-top: 18px;
+  color: var(--subtle);
+  font-size: 11px;
+}
+.quiet-templates summary {
+  cursor: pointer;
+}
+.quiet-templates .home-template-line {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 12px;
+  padding: 0;
+  gap: 4px;
+  border: 0;
+}
+.quiet-templates .home-template-line button {
+  justify-content: space-between;
+}
+.quiet-recents {
+  min-width: 0;
+  border-left: 1px solid var(--line);
+  padding-left: 30px;
+}
+.quiet-recents > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.quiet-recents h2 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+}
+.quiet-recents > header button {
+  color: var(--subtle);
+  font-size: 11px;
+  padding: 4px;
+}
+.quiet-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--subtle);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 10px;
+}
+.quiet-search input {
+  background: none;
+  border: 0;
+  width: 100%;
+  box-shadow: none;
+  height: 30px;
+  padding: 0;
+  font-size: 11px;
+}
+.quiet-file-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 340px;
+  overflow: auto;
+}
+.quiet-file {
+  display: flex;
+  align-items: center;
+  min-height: 49px;
+  border-radius: 5px;
+  padding: 2px 4px;
+  transition: background var(--motion-fast) var(--ease-out);
+}
+.quiet-file-open {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  flex: 1;
+  padding: 3px 0;
+  text-align: left;
+}
+.quiet-file-open img {
+  width: 25px;
+  height: 33px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 2px #0005);
+}
+.quiet-file-open > span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+}
+.quiet-file-open strong {
+  font-size: 11px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--ink);
+}
+.quiet-file-open small,
+.quiet-file-open time {
+  color: var(--subtle);
+  font-size: 11px;
+  white-space: nowrap;
+}
+.quiet-file-more {
+  display: flex;
+  padding: 6px;
+  color: var(--subtle);
+  opacity: 0;
+}
+.quiet-file:hover,
+.quiet-file:focus-within {
+  background: var(--hover);
+}
+.quiet-file:hover .quiet-file-more,
+.quiet-file:focus-within .quiet-file-more {
+  opacity: 1;
+}
+.quiet-home .home-recovery {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+}
+.quiet-empty {
+  padding: 40px 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+.quiet-home-footer {
+  position: absolute;
+  bottom: 16px;
+  left: 26px;
+  right: 26px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 11px;
+  color: var(--subtle);
+}
+.quiet-home-footer > span {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.quiet-home-footer button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.quiet-launch button,
+.quiet-studios button {
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    translate var(--motion-fast) var(--ease-out);
+}
+.quiet-launch button:hover {
+  translate: 0 -1px;
+}
+.quiet-launch button:active {
+  translate: 0 1px;
+}
+.quiet-studios button:hover {
+  background: var(--hover);
+  color: var(--ink);
+}
+/* Signature choices and detailed properties are revealed deliberately. */
+dialog:has(.signature-studio) {
+  width: 720px !important;
+  max-width: calc(100vw - 32px);
+}
+dialog:has(.signature-studio[data-customize="true"]) {
+  width: 930px !important;
+}
+.signature-studio .signature-layout {
+  display: flex;
+  grid-template-columns: none;
+  min-height: 0;
+  height: auto;
+  max-height: calc(85vh - 145px);
+  overflow: auto;
+}
+.signature-studio .signature-workspace {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px;
+  gap: 14px;
+  overflow: auto;
+}
+.signature-studio .signature-name {
+  margin: 0;
+}
+.signature-studio .signature-name input {
+  height: 34px;
+  font-size: 14px;
+}
+.signature-studio .signature-empty-guide {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+.signature-studio .signature-live {
+  height: 180px;
+  min-height: 150px;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 24px;
+  background: #f9fbfd;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 3px 15px #0003;
+}
+.signature-studio .signature-live svg {
+  width: 100%;
+  height: 100%;
+}
+.signature-studio .signature-live > span {
+  display: none;
+}
+.signature-explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--subtle);
+  gap: 10px;
+}
+.signature-explore button {
+  font-size: 11px;
+  color: var(--ink);
+  padding: 5px 0;
+}
+/* Three specimens are discoverable immediately; the complete collection remains optional. */
+.signature-studio[data-choices="false"]
+  .signature-candidates
+  button:nth-child(n + 4):not(.selected) {
+  display: none;
+}
+.signature-studio[data-choices="false"] .signature-candidates {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.signature-studio[data-choices="false"] .signature-candidates button {
+  height: 80px;
+  min-height: 80px;
+}
+.signature-studio .signature-candidates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  max-height: none;
+  overflow: visible;
+  flex-shrink: 0;
+}
+.signature-studio .signature-candidates button {
+  position: relative;
+  height: 104px;
+  min-height: 104px;
+  padding: 10px 12px 25px;
+  background: #f9fbfd;
+  color: #19202b;
+  border: 1px solid #d1dae6;
+  border-radius: 5px;
+}
+.signature-studio .signature-candidates button.selected {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.signature-candidates button > svg.signature-vector {
+  width: 100%;
+  height: 100%;
+}
+.signature-candidates button > span {
+  position: absolute;
+  bottom: 7px;
+  left: 10px;
+  font-size: 11px;
+  color: #526176;
+}
+.signature-candidates button small {
+  display: none;
+}
+.signature-candidates button > svg:not(.signature-vector) {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+.signature-studio .signature-batch-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+}
+.signature-batch-bar > span {
+  margin-right: auto;
+  color: var(--subtle);
+  font-size: 11px;
+}
+.signature-batch-bar > button {
+  height: 30px;
+  font-size: 11px;
+}
+.signature-studio .signature-properties {
+  width: 205px;
+  min-width: 205px;
+  padding: 18px;
+  overflow: auto;
+  background: #ffffff02;
+  border-left: 1px solid var(--line);
+}
+.signature-studio[data-customize="false"] .signature-properties {
+  display: none;
+}
+.signature-studio footer {
+  gap: 8px;
+}
+.signature-studio footer > span {
+  margin-right: auto;
+  font-size: 11px;
+}
+.signature-studio footer .signature-customize {
+  margin-right: auto;
+  color: var(--muted);
+  font-size: 11px;
+}
+.signature-studio:has(.signature-customize) footer > span {
+  display: none;
+}
+@media (max-width: 780px) {
+  .quiet-home-content {
+    gap: 28px;
+    grid-template-columns: 240px minmax(240px, 1fr);
+  }
+  .papier-home.quiet-home {
+    padding: 24px;
+  }
+  .quiet-recents {
+    padding-left: 20px;
+  }
+  .signature-studio .signature-live {
+    height: 160px;
+  }
+  .signature-studio .signature-workspace {
+    padding: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .quiet-home-content {
+    grid-template-columns: 1fr;
+    width: 340px;
+    gap: 36px;
+  }
+  .quiet-recents {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .quiet-home-footer {
+    position: fixed;
+    background: var(--shell);
+    bottom: 0;
+    padding: 10px;
+  }
+  .signature-studio[data-customize="true"] .signature-layout {
+    flex-direction: column;
+  }
+  .signature-studio .signature-properties {
+    width: auto;
+  }
+}
+
+@media (max-height: 760px) {
+  .signature-studio .signature-live {
+    height: 130px;
+    min-height: 100px;
+  }
+  .signature-studio .signature-workspace {
+    padding: 16px;
+    gap: 10px;
+  }
+}
+
+.quiet-home-content {
+  animation: surface-arrive var(--motion-workspace) var(--ease-out);
+}
+.quiet-launch button {
+  border-color: transparent;
+  font-size: 12px;
+}
+.quiet-launch button:not(.primary) {
+  border-color: var(--line-strong);
+  background: transparent;
+}
+.quiet-launch button:hover,
+.quiet-launch button:active {
+  translate: none;
+}
+.quiet-studios button {
+  height: 32px;
+  font-size: 12px;
+}
+.quiet-file {
+  min-height: 54px;
+  padding: 4px 6px;
+}
+.quiet-file-open strong {
+  font-size: 12px;
+}
+.quiet-file-open small,
+.quiet-file-open time {
+  font-size: 11px;
+}
+.quiet-file-more:focus-visible {
+  opacity: 1;
+}
+.quiet-file:has(button:disabled) {
+  opacity: 0.65;
+}
+.quiet-brand .prism-mark {
+  filter: none;
+}
+.signature-studio .studio-tabs {
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+  padding: 6px 16px;
+  gap: 6px;
+}
+.signature-studio .studio-tabs button {
+  color: var(--muted);
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.signature-studio .studio-tabs button.active {
+  color: var(--ink);
+  background: var(--hover);
+  box-shadow: inset 0 -2px var(--accent);
+}
+.signature-studio .signature-layout,
+.signature-studio .signature-workspace {
+  background: var(--panel);
+}
+.signature-studio .signature-properties {
+  background: var(--surface);
+  border-color: var(--line);
+}
+.signature-studio .signature-name span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.signature-studio .signature-name input {
+  background: var(--input);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+.signature-studio .signature-live,
+.signature-studio .signature-candidates button {
+  background: #fff;
+  box-shadow: none;
+}
+.signature-studio .signature-candidates button {
+  border-color: transparent;
+}
+.signature-studio .signature-live .signature-outline {
+  animation: ink-emerge var(--motion-dialog) var(--ease-out);
+}
+.signature-studio .signature-candidates .signature-outline {
+  animation: none;
+}
+.signature-studio .signature-candidates button:hover .signature-outline {
+  transform: none;
+}
+.signature-studio .signature-properties .field {
+  margin-bottom: 12px;
+}
+.signature-studio footer {
+  background: var(--floating);
+}
+.quiet-launch .primary kbd,
+.primary .key-hint {
+  color: var(--on-primary);
+  opacity: 0.75;
+}
+.quiet-studios kbd {
+  opacity: 1;
+  color: var(--subtle);
+}

@@ -16,7 +16,7 @@ cargo build -p pdf-core --locked
 npm run dev
 ```
 
-The browser development adapter uses a loopback server and the local PDF worker. It is not a hosted edition of Papier. Use `npm run desktop` for the desktop shell. Python is only needed when regenerating synthetic fixtures or font assets; regular builds use the checked-in font data.
+The browser development adapter uses a loopback server and the local PDF worker. It is not a hosted edition of Papier. Use `npm run desktop` for the desktop shell. Python is needed for the ephemeral certificate test and when regenerating synthetic fixtures or font assets; regular builds use the checked-in font data.
 
 ## Verify a change
 
@@ -24,6 +24,8 @@ The browser development adapter uses a loopback server and the local PDF worker.
 npm run check
 npm test
 cargo fmt --all -- --check
+python -m pip install cryptography==50.0.1
+python tests/fixtures/generate-test-certificate.py
 cargo test -p pdf-core --locked -- --test-threads=1
 cargo clippy --workspace --all-targets --locked -- -D warnings
 # With npm run dev running:

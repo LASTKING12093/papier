@@ -46,3 +46,5 @@ Existing internal screenshots, backups, audit outputs, caches, recovery data and
 - No known private information remains in the publishable tree or tested release assets within the documented scan scope.
 
 - Public verification: anonymous source clone and asset downloads succeeded; both SHA-256 hashes match the tested originals. Downloaded source/archive scan found no private-pattern matches; downloaded Git history passed Gitleaks. The public installer opened at version 1.0.3 and was closed without changing the existing installation. README media loaded correctly.
+
+- Clean GitHub Windows runner: [CI passed](https://github.com/LASTKING12093/papier/actions/runs/37189173765), including frontend/native/browser tests, production packaging and bundled-engine smoke checks. [CodeQL passed](https://github.com/LASTKING12093/papier/actions/runs/37189173589) for JavaScript/TypeScript, Rust and Actions; no open alerts at verification time.

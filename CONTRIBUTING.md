@@ -11,6 +11,7 @@ npm ci
 node scripts/fetch-native.mjs
 node scripts/fetch-qpdf.mjs
 node scripts/prepare-ocr.mjs
+npm run licenses
 cargo build -p pdf-core --locked
 npm run dev
 ```

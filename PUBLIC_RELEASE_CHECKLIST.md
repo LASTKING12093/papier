@@ -1,6 +1,6 @@
 # Papier public release preparation
 
-Publication gate: **OPEN**. Pre-publication audits passed; the native image-picker step was explicitly waived by the maintainer. Public verification remains a post-publication check. Current application version: **1.0.3**. Product UI and features are frozen.
+Publication gate: **OPEN**. Pre-publication audits passed; the native image-picker step was explicitly waived by the maintainer. Public source and release downloads have now been verified. Current application version: **1.0.3**. Product UI and features are frozen.
 
 ## Checklist
 
@@ -23,7 +23,7 @@ Publication gate: **OPEN**. Pre-publication audits passed; the native image-pick
 - [x] release assets verified
 - [x] SHA-256 generated
 - [x] final repository scan
-- [ ] public repo verification
+- [x] public repo verification
 
 ## Process
 
@@ -44,3 +44,5 @@ Existing internal screenshots, backups, audit outputs, caches, recovery data and
 
 - Clean initial Git history scanned with Gitleaks: no findings; verified public account and noreply commit identity.
 - No known private information remains in the publishable tree or tested release assets within the documented scan scope.
+
+- Public verification: anonymous source clone and asset downloads succeeded; both SHA-256 hashes match the tested originals. Downloaded source/archive scan found no private-pattern matches; downloaded Git history passed Gitleaks. The public installer opened at version 1.0.3 and was closed without changing the existing installation. README media loaded correctly.
